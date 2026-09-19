@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /wts/
+
+    # Direct request for root of /wts -> serve dist/index.html
+    RewriteRule ^$ dist/index.html [L]
+
+    # If file exists in dist, serve it directly
+    RewriteCond %{DOCUMENT_ROOT}/wts/dist/$1 -f
+    RewriteRule ^(.*)$ dist/$1 [L]
+
+    # If requested file or directory exists in wts root, serve directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # SPA fallback for all sub-routes -> dist/index.html
+    RewriteRule ^ dist/index.html [L]
+</IfModule>

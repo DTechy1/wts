@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      (function() {
+        var path = window.location.pathname;
+        var isWts = path === '/wts' || path.startsWith('/wts/');
+        var base = document.createElement('base');
+        base.href = isWts ? '/wts/' : '/';
+        document.head.appendChild(base);
+        window.APP_BASE_PATH = isWts ? '/wts' : '';
+      })();
+    </script>
+    <title>Walters Tours & Safaris - Authentic Tanzania Safari Adventures</title>
+    
+    <!-- Open Graph & SEO Site Name -->
+    <meta name="description" content="Experience unforgettable Tanzania safari adventures, Serengeti wildebeest migration, Mount Kilimanjaro climbing, Zanzibar beach holidays, and Maasai cultural tours with Walters Tours & Safaris.">
+    <meta property="og:site_name" content="Walters Tours & Safaris">
+    <meta property="og:title" content="Walters Tours & Safaris - Authentic Tanzania Safari Adventures">
+    <meta property="og:description" content="Experience unforgettable Tanzania safari adventures, Serengeti wildebeest migration, Mount Kilimanjaro climbing, Zanzibar beach holidays, and Maasai cultural tours.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://walterstoursafaris.co.tz/">
+    <meta property="og:image" content="/images/walters-tours-logo-removebg-preview.png">
+
+    <!-- Structured Data (JSON-LD) for Google Search Site Name -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Walters Tours & Safaris",
+      "alternateName": ["Walters Tours", "Walters Tours and Safaris"],
+      "url": "https://walterstoursafaris.co.tz/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Walters Tours & Safaris",
+      "url": "https://walterstoursafaris.co.tz/",
+      "logo": "https://walterstoursafaris.co.tz/images/walters-tours-logo-removebg-preview.png",
+      "email": "info@walterstoursafaris.co.tz",
+      "telephone": "+255686526171"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/walters-tours-logo-removebg-preview.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-safari-white">
+    <div id="app"></div>
+    <script type="module" src="/resources/js/app.js"></script>
+</body>
+</html>
