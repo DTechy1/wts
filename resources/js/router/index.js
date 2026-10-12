@@ -366,6 +366,36 @@ const routes = [
     component: () => import('../Pages/Itineraries/CampingSafariSerengetiChemka.vue'),
     meta: { title: 'Camping Safari Serengeti & Chemka - Walters Tours & Safaris' }
   },
+  {
+    path: '/itineraries/zanzibar-tanzania-safari-5-days',
+    name: 'itinerary-zanzibar-tanzania-safari-5-days',
+    component: () => import('../Pages/Itineraries/ZanzibarTanzaniaSafari5Days.vue'),
+    meta: { title: '5 Days Zanzibar & Tanzania Safari - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/serengeti-balloon-safari-5-days',
+    name: 'itinerary-serengeti-balloon-safari-5-days',
+    component: () => import('../Pages/Itineraries/SerengetiBalloonSafari5Days.vue'),
+    meta: { title: '4 Nights Serengeti Balloon Safari - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/zanzibar-flying-safari-2-days',
+    name: 'itinerary-zanzibar-flying-safari-2-days',
+    component: () => import('../Pages/Itineraries/ZanzibarFlyingSafari2Days.vue'),
+    meta: { title: '2 Days Flying Beach to Bush Safari - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/tanzania-kenya-safari-12-days',
+    name: 'itinerary-tanzania-kenya-safari-12-days',
+    component: () => import('../Pages/Itineraries/TanzaniaKenyaSafari12Days.vue'),
+    meta: { title: '12 Days Tanzania & Kenya Combined Safari - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/safari-cultural-adventure-9-days',
+    name: 'itinerary-safari-cultural-adventure-9-days',
+    component: () => import('../Pages/Itineraries/SafariCulturalAdventure9Days.vue'),
+    meta: { title: '9 Days Safari & Cultural Adventure - Walters Tours & Safaris' }
+  },
 
   // Catch-all 404 Route -> redirect to Home
   {

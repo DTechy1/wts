@@ -173,6 +173,20 @@ const itineraries = [
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/two-days-ndutu-tarangire'
   },
   {
+    name: '2 Days Flying Beach to Bush',
+    duration: '2 Days',
+    subtitle: 'Zanzibar, Tarangire & Ngorongoro Crater',
+    image: getImageUrl('images/2 days flying safari/pexels-leefinvrede-37087497.jpg'),
+    description: 'From Zanzibar beaches to the heart of the African wilderness — fly to Arusha for a Tarangire game drive among elephants and baobabs, then descend into the Ngorongoro Crater before flying back the same evening.',
+    highlights: [
+      'Return flights Zanzibar–Arusha–Zanzibar',
+      'Tarangire elephants & baobab landscapes',
+      'Full Ngorongoro Crater game drive',
+      'Private 4×4 vehicle & 1 night lodge'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-flying-safari-2-days'
+  },
+  {
     name: '5 Days Tanzania Safari',
     duration: '5 Days',
     subtitle: 'Tarangire, Serengeti, Ngorongoro & Lake Manyara',
@@ -187,6 +201,48 @@ const itineraries = [
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/five-days-tanzania-safari'
   },
   {
+    name: '5 Days Zanzibar & Tanzania Safari',
+    duration: '5 Days',
+    subtitle: 'Zanzibar Beach, Stone Town, Tarangire & Ngorongoro',
+    image: getImageUrl('images/5 days zanzibar safari/yikai-sun-I4abr807Gvo-unsplash.jpg'),
+    description: 'The perfect combination of Zanzibar relaxation and Tanzania wildlife safari. Explore Stone Town and the spice farms, unwind on the beach, then fly to Arusha for game drives in Tarangire and Ngorongoro Crater.',
+    highlights: [
+      'Stone Town cultural tour & Spice Farm',
+      'Flight Zanzibar–Arusha–Zanzibar included',
+      'Tarangire & Ngorongoro Crater game drives',
+      'Private 4×4 safari vehicle & English-speaking guide'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-tanzania-safari-5-days'
+  },
+  {
+    name: '4 Nights Balloon Safari',
+    duration: '5 Days',
+    subtitle: 'Serengeti Balloon Safari, Ngorongoro & Lake Manyara Treetop Walkway',
+    image: getImageUrl('images/balloon safari/hu-chen-4YUH5FbpN-Y-unsplash.jpg'),
+    description: 'A December – January special: float above the Serengeti plains at sunrise during the wildebeest calving season, then explore Tarangire, Ngorongoro Crater and Lake Manyara\'s Treetop Walkway on a private 4×4 safari.',
+    highlights: [
+      'Serengeti Hot-Air Balloon Safari & bush breakfast',
+      'Ngorongoro Crater game drive',
+      'Lake Manyara Treetop Walkway',
+      'Private 4×4 vehicle & park fees included'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/serengeti-balloon-safari-5-days'
+  },
+  {
+    name: '9 Days Safari & Cultural Adventure',
+    duration: '9 Days',
+    subtitle: 'Tarangire, Serengeti, Ngorongoro & Local Culture',
+    image: getImageUrl('images/9 days safari cultural/pexels-alexn-33650626.jpg'),
+    description: 'Discover Tanzania\'s incredible wildlife, fascinating traditions and authentic local experiences. Game drives in Tarangire, Serengeti and Ngorongoro Crater combined with Maasai, Mto wa Mbu and Chagga cultural visits.',
+    highlights: [
+      'Tarangire, Serengeti & Ngorongoro Crater',
+      'Maasai community visit',
+      'Mto wa Mbu village & local food tour',
+      'Materuni Waterfall & Chagga coffee experience'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/safari-cultural-adventure-9-days'
+  },
+  {
     name: '10 Days Luxury Safari Experience',
     duration: '10 Days',
     subtitle: 'The Ultimate Tanzania Journey',
@@ -199,6 +255,20 @@ const itineraries = [
       'Visit 5 parks: Serengeti, Ngorongoro, Manyara, Tarangire, Eyasi'
     ],
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/ten-days-luxury-safari'
+  },
+  {
+    name: '12 Days Tanzania & Kenya Safari',
+    duration: '12 Days',
+    subtitle: 'Serengeti, Ngorongoro, Amboseli & Maasai Mara',
+    image: getImageUrl('images/12 days tanzania kenya/pexels-mechi-torralva-1270583046-31439277.jpg'),
+    description: 'Experience two countries in one unforgettable African adventure. Explore Tarangire, Serengeti, Ngorongoro and Lake Manyara in Tanzania, then cross into Kenya for Amboseli, Lake Naivasha and the Maasai Mara.',
+    highlights: [
+      'Two countries: Tanzania & Kenya',
+      'Serengeti & Maasai Mara game drives',
+      'Ngorongoro Crater & Amboseli with Kilimanjaro views',
+      '11 nights accommodation & park fees included'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/tanzania-kenya-safari-12-days'
   },
   {
     name: 'Ngorongoro Crater Day Trip',
