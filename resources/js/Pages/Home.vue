@@ -218,18 +218,40 @@
           <p class="text-gray-600 max-w-3xl mx-auto">Experience the best of Tanzania with our most popular safari packages, crafted for unforgettable wildlife adventures.</p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-          <a v-for="itinerary in topItineraries" :key="itinerary.name" :href="itinerary.link"
-             class="group relative h-80 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
-            <img :src="getImageUrl(itinerary.image)" :alt="itinerary.name" 
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/40 to-transparent"></div>
-            <div class="absolute bottom-0 left-0 right-0 p-5">
-              <div class="inline-block bg-safari-orange text-white text-xs font-bold px-3 py-1 rounded-full mb-2">{{ itinerary.duration }}</div>
-              <h3 class="text-xl font-heading font-bold text-white mb-1">{{ itinerary.name }}</h3>
-              <p class="text-white/80 text-sm">{{ itinerary.highlight }}</p>
+        <div class="lg:grid lg:grid-cols-[1fr_320px] lg:gap-8 lg:items-start mb-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <a v-for="itinerary in topItineraries" :key="itinerary.name" :href="itinerary.link"
+               class="group relative h-80 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+              <img :src="getImageUrl(itinerary.image)" :alt="itinerary.name"
+                   class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/40 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-5">
+                <div class="inline-block bg-safari-orange text-white text-xs font-bold px-3 py-1 rounded-full mb-2">{{ itinerary.duration }}</div>
+                <h3 class="text-xl font-heading font-bold text-white mb-1">{{ itinerary.name }}</h3>
+                <p class="text-white/80 text-sm">{{ itinerary.highlight }}</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- New Itineraries Sidebar -->
+          <aside class="mt-10 lg:mt-0 lg:sticky lg:top-28 bg-safari-white rounded-2xl border border-gray-100 shadow-lg p-5">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-heading font-bold text-safari-brown">New Itineraries</h3>
+              <span class="bg-safari-orange text-white text-xs font-bold px-3 py-1 rounded-full">Just Added</span>
             </div>
-          </a>
+            <div class="space-y-1">
+              <a v-for="itinerary in newItineraries" :key="itinerary.name" :href="itinerary.link"
+                 class="group flex items-center gap-3 p-2 -mx-2 rounded-xl hover:bg-white transition">
+                <img :src="getImageUrl(itinerary.image)" :alt="itinerary.name"
+                     class="w-16 h-16 rounded-lg object-cover flex-shrink-0" />
+                <div class="min-w-0">
+                  <span class="text-xs font-semibold uppercase tracking-wider text-safari-orange">{{ itinerary.duration }}</span>
+                  <h4 class="text-sm font-semibold text-safari-brown leading-snug group-hover:text-safari-orange transition-colors">{{ itinerary.name }}</h4>
+                  <p class="text-xs text-gray-500 truncate">{{ itinerary.highlight }}</p>
+                </div>
+              </a>
+            </div>
+          </aside>
         </div>
 
         <div class="text-center">
@@ -508,12 +530,6 @@
         <div class="flex flex-wrap items-center justify-center gap-12">
           <div class="flex items-center gap-3 grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
             <svg class="w-10 h-10 text-safari-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
-            </svg>
-            <span class="font-semibold text-safari-brown text-sm">Tanzania Association<br>of Tour Operators</span>
-          </div>
-          <div class="flex items-center gap-3 grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-            <svg class="w-10 h-10 text-safari-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
             </svg>
             <span class="font-semibold text-safari-brown text-sm">Tanzania Tourism<br>Board Registered</span>
@@ -528,8 +544,10 @@
         
         <!-- Partner Logos Row -->
         <div class="flex flex-wrap items-center justify-center gap-12 mt-12">
-          <img :src="getImageUrl('images/partners/tato-removebg-preview.png')" alt="TATO Partner" class="h-16 md:h-20 w-auto grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100" />
           <img :src="getImageUrl('images/partners/trist-removebg-preview.png')" alt="TRIST Partner" class="h-16 md:h-20 w-auto grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100" />
+          <img :src="getImageUrl('images/partners/safari-deal.png')" alt="Safari Deal Partner" class="h-16 md:h-20 w-auto grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100" />
+          <img :src="getImageUrl('images/partners/tanzania-safari-zanzibar.jpeg')" alt="Tanzania Safari Zanzibar Partner" class="h-16 md:h-20 w-auto grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100" />
+          <img :src="getImageUrl('images/partners/tourhq.jpeg')" alt="tourHQ Partner" class="h-16 md:h-20 w-auto grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100" />
         </div>
       </div>
     </section>
@@ -612,6 +630,44 @@ const topItineraries = [
     highlight: 'Ultimate Tanzania Luxury Experience',
     image: 'images/serengeti/pexels-mikeknibbs-17849789.jpg',
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/ten-days-luxury-safari'
+  },
+];
+
+const newItineraries = [
+  {
+    name: '12 Days Tanzania & Kenya Safari',
+    duration: '12 Days',
+    highlight: 'Serengeti, Ngorongoro & Maasai Mara',
+    image: 'images/12 days tanzania kenya/pexels-mechi-torralva-1270583046-31439277.jpg',
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/tanzania-kenya-safari-12-days'
+  },
+  {
+    name: '9 Days Safari & Cultural Adventure',
+    duration: '9 Days',
+    highlight: 'Wildlife, Maasai & Chagga Culture',
+    image: 'images/9 days safari cultural/pexels-alexn-33650626.jpg',
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/safari-cultural-adventure-9-days'
+  },
+  {
+    name: '4 Nights Balloon Safari',
+    duration: '5 Days',
+    highlight: 'Serengeti Sunrise Balloon Flight',
+    image: 'images/balloon safari/hu-chen-4YUH5FbpN-Y-unsplash.jpg',
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/serengeti-balloon-safari-5-days'
+  },
+  {
+    name: '5 Days Zanzibar & Tanzania Safari',
+    duration: '5 Days',
+    highlight: 'Beach, Stone Town & Big Game',
+    image: 'images/5 days zanzibar safari/yikai-sun-I4abr807Gvo-unsplash.jpg',
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-tanzania-safari-5-days'
+  },
+  {
+    name: '2 Days Flying Beach to Bush',
+    duration: '2 Days',
+    highlight: 'Fly from Zanzibar to Tarangire & Ngorongoro',
+    image: 'images/2 days flying safari/pexels-leefinvrede-37087497.jpg',
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-flying-safari-2-days'
   },
 ];
 

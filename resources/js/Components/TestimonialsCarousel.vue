@@ -8,18 +8,22 @@
       
       <div class="max-w-4xl mx-auto">
         <!-- Main testimonial display -->
-        <div class="relative min-h-[220px] mb-6">
-          <TransitionGroup name="testimonial">
-            <div 
-              v-for="(testimonial, index) in displayTestimonials" 
+        <div class="relative mb-6">
+          <!-- Slides share one grid cell so the box grows to fit the longest review -->
+          <div class="grid">
+            <div
+              v-for="(testimonial, index) in displayTestimonials"
               :key="index"
-              v-show="currentIndex === index"
-              class="absolute inset-0 flex items-center justify-center"
+              class="col-start-1 row-start-1 flex items-center justify-center transition-all duration-500 ease-out"
+              :class="currentIndex === index
+                ? 'opacity-100 translate-x-0'
+                : ['opacity-0 pointer-events-none', index < currentIndex ? '-translate-x-12' : 'translate-x-12']"
+              :aria-hidden="currentIndex !== index"
             >
               <div class="w-full">
-                <div class="p-6 md:p-8">
+                <div class="px-1 py-2 md:p-8">
                   <!-- Quote icon -->
-                  <div class="flex justify-center mb-3">
+                  <div class="flex justify-center mb-4">
                     <div class="w-10 h-10 bg-safari-orange/20 rounded-full flex items-center justify-center">
                       <svg class="w-5 h-5 text-safari-orange" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
@@ -28,7 +32,7 @@
                   </div>
                   
                   <!-- Testimonial content -->
-                  <p class="text-base md:text-lg text-center mb-4 italic leading-relaxed text-white font-light">
+                  <p class="text-base md:text-lg text-center mb-6 italic leading-relaxed text-white font-light">
                     "{{ testimonial.content }}"
                   </p>
                   
@@ -59,21 +63,23 @@
                 </div>
               </div>
             </div>
-          </TransitionGroup>
-          
-          <!-- Navigation buttons -->
-          <button 
-            @click="prev" 
-            class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-6 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl hover:scale-110 z-20"
+          </div>
+
+          <!-- Navigation buttons (desktop; mobile uses the row under the slides) -->
+          <button
+            @click="prev"
+            aria-label="Previous review"
+            class="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl hover:scale-110 z-20"
           >
             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
             </svg>
           </button>
           
-          <button 
-            @click="next" 
-            class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-6 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl hover:scale-110 z-20"
+          <button
+            @click="next"
+            aria-label="Next review"
+            class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl hover:scale-110 z-20"
           >
             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -82,11 +88,12 @@
         </div>
         
         <!-- Thumbnail navigation -->
-        <div class="flex justify-center gap-2 flex-wrap mb-4">
-          <button 
-            v-for="(testimonial, index) in displayTestimonials" 
+        <div class="hidden sm:flex justify-center gap-2 flex-wrap mb-6">
+          <button
+            v-for="(testimonial, index) in displayTestimonials"
             :key="index"
             @click="goToSlide(index)"
+            :aria-label="`Show review by ${testimonial.name}`"
             class="group relative"
           >
             <div 
@@ -101,23 +108,45 @@
         </div>
         
         <!-- Progress bar -->
-        <div class="max-w-sm mx-auto mb-10">
-          <div class="h-0.5 bg-white/20 rounded-full overflow-hidden">
-            <div 
-              class="h-full bg-safari-orange transition-all duration-300 ease-linear"
-              :style="{ width: `${((currentIndex + 1) / totalTestimonials) * 100}%` }"
-            ></div>
+        <div class="flex items-center gap-4 max-w-sm mx-auto mb-10">
+          <button
+            @click="prev(); resetAutoPlay()"
+            aria-label="Previous review"
+            class="md:hidden flex-shrink-0 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl"
+          >
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+
+          <div class="flex-1">
+            <div class="h-0.5 bg-white/20 rounded-full overflow-hidden">
+              <div
+                class="h-full bg-safari-orange transition-all duration-300 ease-linear"
+                :style="{ width: `${((currentIndex + 1) / totalTestimonials) * 100}%` }"
+              ></div>
+            </div>
+            <div class="text-center mt-1.5 text-white/60 text-xs">
+              {{ currentIndex + 1 }} / {{ totalTestimonials }}
+            </div>
           </div>
-          <div class="text-center mt-1.5 text-white/60 text-xs">
-            {{ currentIndex + 1 }} / {{ totalTestimonials }}
-          </div>
+
+          <button
+            @click="next(); resetAutoPlay()"
+            aria-label="Next review"
+            class="md:hidden flex-shrink-0 bg-safari-orange p-2.5 rounded-full hover:bg-safari-orange/90 transition-all shadow-xl"
+          >
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
         </div>
 
         <!-- Leave Us a Review Section -->
         <div class="bg-gradient-to-r from-white/10 via-white/15 to-white/10 backdrop-blur-md border border-white/25 rounded-2xl p-6 md:p-8 shadow-2xl">
           <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             <!-- Left: Badge & Info -->
-            <div class="flex items-center gap-4 text-center md:text-left">
+            <div class="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div class="w-16 h-16 rounded-2xl bg-[#00aa6c] flex items-center justify-center text-white shadow-lg flex-shrink-0 mx-auto md:mx-0">
                 <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 512 512">
                   <path d="M175.335 281.334c0 24.483-19.853 44.336-44.336 44.336-24.484 0-44.337-19.853-44.337-44.336 0-24.484 19.853-44.337 44.337-44.337 24.483 0 44.336 19.853 44.336 44.337zm205.554-44.337c-24.48 0-44.336 19.853-44.336 44.337 0 24.483 19.855 44.336 44.336 44.336 24.481 0 44.334-19.853 44.334-44.336-.006-24.47-19.839-44.31-44.309-44.323l-.025-.01v-.004zm125.002 44.337c0 68.997-55.985 124.933-124.999 124.933a124.466 124.466 0 01-84.883-33.252l-40.006 43.527-40.025-43.576a124.45 124.45 0 01-84.908 33.3c-68.968 0-124.933-55.937-124.933-124.932A124.586 124.586 0 0146.889 189L6 144.517h90.839c96.116-65.411 222.447-65.411 318.557 0H506l-40.878 44.484a124.574 124.574 0 0140.769 92.333zm-290.31 0c0-46.695-37.858-84.55-84.55-84.55-46.691 0-84.55 37.858-84.55 84.55 0 46.691 37.859 84.55 84.55 84.55 46.692 0 84.545-37.845 84.55-84.54v-.013.003zM349.818 155.1a244.01 244.01 0 00-187.666 0C215.532 175.533 256 223.254 256 278.893c0-55.634 40.463-103.362 93.826-123.786l-.005-.006h-.003zm115.64 126.224c0-46.694-37.858-84.55-84.55-84.55-46.691 0-84.552 37.859-84.552 84.55 0 46.692 37.855 84.55 84.553 84.55 46.697 0 84.55-37.858 84.55-84.55z"/>
@@ -160,23 +189,6 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-.testimonial-enter-active,
-.testimonial-leave-active {
-  transition: all 0.6s ease;
-}
-
-.testimonial-enter-from {
-  opacity: 0;
-  transform: translateX(100px) scale(0.95);
-}
-
-.testimonial-leave-to {
-  opacity: 0;
-  transform: translateX(-100px) scale(0.95);
-}
-</style>
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
