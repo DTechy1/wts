@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <MainLayout>
     <Breadcrumb :breadcrumbs="[{ name: 'Best Itineraries Collection' }]" />
     
@@ -437,6 +437,76 @@ const itineraries = [
       'Kikuletwa hot springs relaxation'
     ],
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/camping-safari-serengeti-chemka'
+  },
+  {
+    name: '10 Days Zanzibar, Safari & Cultural Experience',
+    duration: '10 Days',
+    subtitle: 'Zanzibar, Tarangire, Serengeti, Ngorongoro & Culture',
+    image: getImageUrl('images/zanzibar/pexels-rufaro-6707821.jpg'),
+    description: 'Discover the beautiful beaches of Zanzibar, explore the famous Serengeti plains, encounter elephants in Tarangire National Park, descend into the spectacular Ngorongoro Crater, and experience the rich traditions of the Maasai people.',
+    highlights: [
+      'Zanzibar beach, Stone Town & spice farm tour',
+      'Domestic flight Zanzibar to Arusha included',
+      'Tarangire, Serengeti & Ngorongoro Crater Big 5',
+      'Maasai cultural visit & Materuni waterfall hike'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-safari-cultural-10-days'
+  },
+  {
+    name: '20 Days Tanzania Safari & Cultural Experience',
+    duration: '20 Days',
+    subtitle: 'Wildlife, Maasai, Hadzabe & Mount Kilimanjaro',
+    image: getImageUrl('images/9 days safari cultural/pexels-alexn-33650626.jpg'),
+    description: 'An in-depth 20-day journey combining world-class wildlife safaris across Northern Tanzania with authentic cultural encounters with the Maasai, Hadzabe, and Chagga communities.',
+    highlights: [
+      'Tarangire, Serengeti, Ngorongoro & Lake Manyara',
+      'Maasai community visit & Hadzabe hunter-gatherers',
+      'Materuni waterfalls hike & Chagga coffee making',
+      'Arusha National Park walking safari'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/tanzania-safari-cultural-20-days'
+  },
+  {
+    name: '20 Days Tanzania Safari & Zanzibar Excursions',
+    duration: '20 Days',
+    subtitle: 'Wildlife Safaris, Waterfalls & Tropical Beach Holidays',
+    image: getImageUrl('images/zanzibar/pexels-saila-holidays-zanzibar-1351717875-25706804.jpg'),
+    description: 'The ultimate 20-day African holiday combining spectacular game drives in northern Tanzania, waterfalls, hot springs, and an extensive week of marine excursions in Zanzibar.',
+    highlights: [
+      'Serengeti, Tarangire, Ngorongoro & Lake Manyara',
+      'Chemka Hot Springs & Materuni Waterfalls',
+      'Stone Town, Prison Island & Nakupenda Sandbank',
+      'Mnemba Island, Jozani Forest & Paje Beach'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/tanzania-safari-zanzibar-20-days'
+  },
+  {
+    name: '10-Day Luxury Tanzania Safari for Couples',
+    duration: '10 Days',
+    subtitle: 'Romantic Safari & Zanzibar Beach Holiday',
+    image: getImageUrl('images/couple safari/alferio-njau-jcxtiCYGNpQ-unsplash.jpg'),
+    description: 'Designed for couples, honeymooners, and anniversary celebrations seeking romantic wildlife encounters and luxurious relaxation on the turquoise coast of Zanzibar.',
+    highlights: [
+      'Tarangire, Ngorongoro Crater & Serengeti game drives',
+      'Romantic bush dinners & intimate safari lodges',
+      'Luxury beachfront resort in Zanzibar',
+      'Private dhow sunset cruise & Prison Island excursion'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/luxury-couples-safari-10-days'
+  },
+  {
+    name: '15-Day Tanzania Safari Adventure',
+    duration: '15 Days',
+    subtitle: 'Wildlife, Culture, Nature & Unforgettable Experiences',
+    image: getImageUrl('images/serengeti/pexels-mikeknibbs-17849789.jpg'),
+    description: 'A comprehensive 15-day adventure exploring Tarangire, Lake Manyara, the legendary Serengeti, Ngorongoro Crater, Lake Natron flamingos, Materuni Waterfalls, and local tribes.',
+    highlights: [
+      'Full-day game drives across Serengeti & Ngorongoro',
+      'Lake Natron waterfalls & breeding flamingos',
+      'Lake Eyasi Hadzabe & Datoga cultural immersion',
+      'Materuni Waterfalls & Chemka Hot Springs'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/tanzania-safari-adventure-15-days'
   }
 ];
 </script>

@@ -396,6 +396,36 @@ const routes = [
     component: () => import('../Pages/Itineraries/SafariCulturalAdventure9Days.vue'),
     meta: { title: '9 Days Safari & Cultural Adventure - Walters Tours & Safaris' }
   },
+  {
+    path: '/itineraries/zanzibar-safari-cultural-10-days',
+    name: 'itinerary-zanzibar-safari-cultural-10-days',
+    component: () => import('../Pages/Itineraries/ZanzibarSafariCultural10Days.vue'),
+    meta: { title: '10 Days Zanzibar, Safari & Cultural Experience - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/tanzania-safari-cultural-20-days',
+    name: 'itinerary-tanzania-safari-cultural-20-days',
+    component: () => import('../Pages/Itineraries/TanzaniaSafariCultural20Days.vue'),
+    meta: { title: '20 Days Tanzania Safari & Cultural Experience - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/tanzania-safari-zanzibar-20-days',
+    name: 'itinerary-tanzania-safari-zanzibar-20-days',
+    component: () => import('../Pages/Itineraries/TanzaniaSafariZanzibar20Days.vue'),
+    meta: { title: '20 Days Tanzania Safari & Zanzibar Excursions - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/luxury-couples-safari-10-days',
+    name: 'itinerary-luxury-couples-safari-10-days',
+    component: () => import('../Pages/Itineraries/LuxuryCouplesSafari10Days.vue'),
+    meta: { title: '10-Day Luxury Tanzania Safari for Couples - Walters Tours & Safaris' }
+  },
+  {
+    path: '/itineraries/tanzania-safari-adventure-15-days',
+    name: 'itinerary-tanzania-safari-adventure-15-days',
+    component: () => import('../Pages/Itineraries/TanzaniaSafariAdventure15Days.vue'),
+    meta: { title: '15-Day Tanzania Safari Adventure - Walters Tours & Safaris' }
+  },
 
   // Catch-all 404 Route -> redirect to Home
   {

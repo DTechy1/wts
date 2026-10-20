@@ -235,7 +235,8 @@ const itinerary = [
     day: 1,
     title: 'Zanzibar to Arusha to Tarangire',
     location: 'Tarangire National Park',
-    description: 'Early morning flight from Zanzibar to Arusha Airport, where you meet your professional safari guide and drive toward Tarangire National Park. Enter the park late morning and begin your game drive, searching for elephants, giraffes, zebras, wildebeest, buffalo, lions and other wildlife. Enjoy a picnic lunch in the park, then continue with an afternoon game drive among the famous baobab trees and Tarangire River landscapes. In the evening, leave the park and drive toward the Karatu / Ngorongoro area to check in at your lodge for dinner & overnight. Meals: Lunch & dinner.'
+    description: 'Early morning flight from Zanzibar to Arusha Airport, where you meet your professional safari guide and drive toward Tarangire National Park. Enter the park late morning and begin your game drive, searching for elephants, giraffes, zebras, wildebeest, buffalo, lions and other wildlife. Enjoy a picnic lunch in the park, then continue with an afternoon game drive among the famous baobab trees and Tarangire River landscapes. In the evening, leave the park and drive toward the Karatu / Ngorongoro area to check in at your lodge for dinner & overnight. Meals: Lunch & dinner.',
+    image: 'images/Arusha/arusha-airport.jpeg'
   },
   {
     day: 2,

@@ -250,7 +250,8 @@ const itinerary = [
     day: 1,
     title: 'Arrival in Arusha',
     location: 'Arusha, Tanzania',
-    description: 'Arrival at Kilimanjaro International Airport (JRO), where you meet and greet your professional safari guide. Transfer to your hotel in Arusha to relax and prepare for your safari adventure. Overnight in Arusha.'
+    description: 'Arrival at Kilimanjaro International Airport (JRO), where you meet and greet your professional safari guide. Transfer to your hotel in Arusha to relax and prepare for your safari adventure. Overnight in Arusha.',
+    image: 'images/Arusha/arusha-airport.jpeg'
   },
   {
     day: 2,

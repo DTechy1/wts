@@ -257,7 +257,8 @@ const itinerary = [
     day: 5,
     title: 'Karatu to Arusha - Flight to Zanzibar',
     location: 'Arusha',
-    description: 'Breakfast at the lodge and morning transfer to Arusha. Depending on your flight schedule, enjoy a short Arusha city experience or lunch, then transfer to Arusha Airport for your flight back to Zanzibar, with an airport/hotel transfer on arrival.'
+    description: 'Breakfast at the lodge and morning transfer to Arusha. Depending on your flight schedule, enjoy a short Arusha city experience or lunch, then transfer to Arusha Airport for your flight back to Zanzibar, with an airport/hotel transfer on arrival.',
+    image: 'images/Arusha/arusha-airport.jpeg'
   }
 ];
 

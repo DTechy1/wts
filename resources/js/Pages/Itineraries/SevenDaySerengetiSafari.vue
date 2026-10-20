@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <MainLayout>
     <Breadcrumb :breadcrumbs="[
       { name: 'Itineraries', href: '/itineraries' },
@@ -242,7 +242,7 @@ const itinerary = [
     title: 'Arrival in Arusha',
     location: 'Arusha',
     description: 'Arrive at Kilimanjaro International Airport. Transfer to your hotel in Arusha, the gateway to the northern safari circuit, for a restful evening.',
-    image: null,
+    image: 'images/Arusha/arusha-airport.jpeg',
   },
   {
     day: 2,

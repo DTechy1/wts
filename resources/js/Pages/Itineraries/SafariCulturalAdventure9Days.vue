@@ -248,7 +248,8 @@ const itinerary = [
     day: 1,
     title: 'Arrival in Arusha',
     location: 'Arusha',
-    description: 'Meet your professional safari guide at Kilimanjaro International Airport and transfer to your hotel in Arusha to relax after your journey. Optional Arusha city tour, depending on arrival time. Dinner and overnight in Arusha.'
+    description: 'Meet your professional safari guide at Kilimanjaro International Airport and transfer to your hotel in Arusha to relax after your journey. Optional Arusha city tour, depending on arrival time. Dinner and overnight in Arusha.',
+    image: 'images/Arusha/arusha-airport.jpeg'
   },
   {
     day: 2,
