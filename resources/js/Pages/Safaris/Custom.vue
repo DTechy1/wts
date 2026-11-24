@@ -9,15 +9,15 @@
     <section class="relative h-[600px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-denice-alex-LD6WgJlIpmk-unsplash.jpg')" 
            alt="Custom Safari" class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Tailored Experience
           </div>
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Custom Safaris</h1>
           <p class="text-2xl text-white/95 max-w-3xl mb-8">Your Dream Safari, Designed Exactly How You Want It</p>
-          <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Design Your Safari
           </a>
         </div>
@@ -25,10 +25,10 @@
     </section>
     
     <!-- Overview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Create Your Perfect Safari</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Create Your Perfect Safari</h2>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
             Every traveler is unique, and so should be their safari. We specialize in creating bespoke safari experiences 
             tailored to your interests, budget, and schedule. From wildlife photography expeditions to romantic getaways, 
@@ -38,40 +38,40 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Fully Customizable</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Fully Customizable</h3>
             <p class="text-gray-600">Every detail tailored to you</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
                 <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Expert Planning</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Expert Planning</h3>
             <p class="text-gray-600">Professional safari designers</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Flexible Schedule</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Flexible Schedule</h3>
             <p class="text-gray-600">Your timeline, your pace</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Any Budget</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Any Budget</h3>
             <p class="text-gray-600">From budget to luxury</p>
           </div>
         </div>
@@ -79,21 +79,21 @@
     </section>
     
     <!-- Customization Options -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Customize Every Aspect</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Customize Every Aspect</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="option in customOptions" :key="option.title"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-4">
-              <div v-html="option.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-4">
+              <div v-html="option.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ option.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ option.title }}</h3>
             <p class="text-gray-600 mb-4">{{ option.description }}</p>
             <ul class="space-y-2">
               <li v-for="item in option.items" :key="item" class="text-sm text-gray-600 flex items-center gap-2">
-                <svg class="w-4 h-4 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-4 h-4 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 {{ item }}
@@ -105,9 +105,9 @@
     </section>
     
     <!-- Popular Custom Themes -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Popular Custom Themes</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Popular Custom Themes</h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Get inspired by these popular custom safari themes</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -116,7 +116,7 @@
             <div class="relative h-48 overflow-hidden group">
               <img :src="getImageUrl(theme.image)" :alt="theme.title" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 to-transparent"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4">
                 <h3 class="text-xl font-heading font-bold text-white">{{ theme.title }}</h3>
               </div>
@@ -125,11 +125,11 @@
               <p class="text-gray-600 mb-4">{{ theme.description }}</p>
               <div class="flex flex-wrap gap-2 mb-4">
                 <span v-for="tag in theme.tags" :key="tag" 
-                      class="bg-safari-orange/10 text-safari-orange px-3 py-1 rounded-full text-xs font-semibold">
+                      class="bg-safari-green/10 text-safari-green px-3 py-1 rounded-full text-xs font-semibold">
                   {{ tag }}
                 </span>
               </div>
-              <a :href="$basePath + '/contact'" class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+              <a :href="$basePath + '/contact'" class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 Customize This
               </a>
             </div>
@@ -139,13 +139,13 @@
     </section>
     
     <!-- How It Works -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-12">How Custom Safari Works</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div v-for="(step, index) in steps" :key="step.title" class="text-center">
-            <div class="w-16 h-16 bg-safari-orange rounded-full flex items-center justify-center mx-auto mb-4">
+            <div class="w-16 h-16 bg-safari-green rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-2xl font-bold text-white">{{ index + 1 }}</span>
             </div>
             <h3 class="text-xl font-heading font-bold text-white mb-3">{{ step.title }}</h3>
@@ -156,20 +156,20 @@
     </section>
     
     <!-- Testimonials -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">What Our Clients Say</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">What Our Clients Say</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="testimonial in testimonials" :key="testimonial.name"
                class="bg-white rounded-xl p-6 shadow-lg">
             <div class="flex items-center gap-1 mb-4">
-              <svg v-for="n in 5" :key="n" class="w-5 h-5 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+              <svg v-for="n in 5" :key="n" class="w-5 h-5 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
               </svg>
             </div>
             <p class="text-gray-700 mb-4 italic">"{{ testimonial.text }}"</p>
-            <div class="font-semibold text-safari-brown">{{ testimonial.name }}</div>
+            <div class="font-semibold text-safari-dark">{{ testimonial.name }}</div>
             <div class="text-sm text-gray-600">{{ testimonial.trip }}</div>
           </div>
         </div>
@@ -177,13 +177,13 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Ready to Design Your Dream Safari?</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">
           Let's create a safari experience that's uniquely yours
         </p>
-        <a :href="$basePath + '/contact'" class="inline-block bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+        <a :href="$basePath + '/contact'" class="inline-block bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
           Start Planning Now
         </a>
       </div>

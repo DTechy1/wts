@@ -7,7 +7,7 @@
       <img :src="getImageUrl('images/walters-tours-safaris-denice-alex-LD6WgJlIpmk-unsplash.jpg')" 
            alt="Contact Us" 
            class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/90 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/90 to-safari-dark/70"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div>
           <h1 class="text-5xl md:text-6xl font-heading font-bold text-white mb-4">Get In Touch</h1>
@@ -16,12 +16,12 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <!-- Contact Form -->
           <div class="bg-white rounded-2xl shadow-xl p-8">
-            <h2 class="text-3xl font-heading font-bold text-safari-brown mb-6">Send us a message</h2>
+            <h2 class="text-3xl font-heading font-bold text-safari-dark mb-6">Send us a message</h2>
 
             <div v-if="successMessage" class="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800 space-y-2">
               <div class="flex items-center gap-3">
@@ -50,14 +50,14 @@
             <form @submit.prevent="submitContact" class="space-y-6">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input v-model="form.name" type="text" placeholder="Your Name" required
-                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-orange focus:border-transparent transition" />
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-green focus:border-transparent transition" />
                 <input v-model="form.email" type="email" placeholder="Your Email" required
-                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-orange focus:border-transparent transition" />
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-green focus:border-transparent transition" />
               </div>
               <input v-model="form.phone" type="tel" placeholder="Phone Number"
-                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-orange focus:border-transparent transition" />
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-green focus:border-transparent transition" />
               <select v-model="form.safari_type"
-                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-orange focus:border-transparent transition">
+                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-green focus:border-transparent transition">
                 <option value="">Select Safari Type</option>
                 <option value="luxury">Luxury Safari</option>
                 <option value="budget">Budget Safari</option>
@@ -65,9 +65,9 @@
                 <option value="custom">Custom Safari</option>
               </select>
               <textarea v-model="form.message" placeholder="Tell us about your dream safari..." rows="6" required
-                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-orange focus:border-transparent transition"></textarea>
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-safari-green focus:border-transparent transition"></textarea>
               <button type="submit" :disabled="isSubmitting"
-                      class="w-full bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
+                      class="w-full bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
                 <span v-if="!isSubmitting">Send Message</span>
                 <span v-else class="flex items-center justify-center gap-2">
                   <svg class="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
@@ -83,60 +83,60 @@
           <!-- Contact Information & Self-Booking -->
           <div class="space-y-8">
             <div class="bg-white rounded-2xl shadow-xl p-8">
-              <h2 class="text-3xl font-heading font-bold text-safari-brown mb-6">Contact Information</h2>
+              <h2 class="text-3xl font-heading font-bold text-safari-dark mb-6">Contact Information</h2>
               <div class="space-y-6">
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-safari-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-12 h-12 bg-safari-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-safari-brown mb-1">Email</h3>
+                    <h3 class="font-bold text-safari-dark mb-1">Email</h3>
                     <p class="text-gray-600">Info@walterstoursafaris.co.tz</p>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-safari-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-12 h-12 bg-safari-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-safari-brown mb-1">WhatsApp</h3>
+                    <h3 class="font-bold text-safari-dark mb-1">WhatsApp</h3>
                     <p class="text-gray-600">+255686526171</p>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-safari-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-12 h-12 bg-safari-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-safari-brown mb-1">Office Locations</h3>
+                    <h3 class="font-bold text-safari-dark mb-1">Office Locations</h3>
                     <p class="text-gray-600">Zanzibar Nungwi & Arusha Sanawari street</p>
                   </div>
                 </div>
 
                 <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-safari-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-safari-orange" fill="currentColor" viewBox="0 0 24 24">
+                  <div class="w-12 h-12 bg-safari-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-safari-green" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-safari-brown mb-2">Follow Our Adventures</h3>
+                    <h3 class="font-bold text-safari-dark mb-2">Follow Our Adventures</h3>
                     <div class="flex flex-wrap items-center gap-2">
                       <a href="https://www.facebook.com/walterstoursafaris/" target="_blank" rel="noopener noreferrer" 
-                         class="px-3 py-1.5 bg-gray-100 hover:bg-safari-orange hover:text-white rounded-lg text-xs font-semibold text-gray-700 transition flex items-center gap-1.5" title="Facebook">
+                         class="px-3 py-1.5 bg-gray-100 hover:bg-safari-green hover:text-white rounded-lg text-xs font-semibold text-gray-700 transition flex items-center gap-1.5" title="Facebook">
                         Facebook
                       </a>
                       <a href="https://www.instagram.com/walters_tours_safaris_ltd" target="_blank" rel="noopener noreferrer" 
-                         class="px-3 py-1.5 bg-gray-100 hover:bg-safari-orange hover:text-white rounded-lg text-xs font-semibold text-gray-700 transition flex items-center gap-1.5" title="Instagram">
+                         class="px-3 py-1.5 bg-gray-100 hover:bg-safari-green hover:text-white rounded-lg text-xs font-semibold text-gray-700 transition flex items-center gap-1.5" title="Instagram">
                         Instagram
                       </a>
                       <a href="https://www.tripadvisor.com/Attraction_Review-g297913-d34556950-Reviews-Walters_Tours_Safaris_Ltd-Arusha_Arusha_Region.html" target="_blank" rel="noopener noreferrer" 
@@ -161,7 +161,7 @@
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-safari-brown text-base">Leave Us a Review</h4>
+                  <h4 class="font-bold text-safari-dark text-base">Leave Us a Review</h4>
                   <div class="flex items-center gap-1">
                     <span class="text-[#00aa6c] text-xs font-bold">●●●●●</span>
                     <span class="text-xs text-gray-500 font-medium">TripAdvisor Verified</span>
@@ -183,7 +183,7 @@
             </div>
             
             <!-- Self-Booking Card -->
-            <div class="bg-gradient-to-br from-safari-brown to-safari-brown/90 rounded-2xl shadow-xl p-8 text-white">
+            <div class="bg-gradient-to-br from-safari-dark to-safari-dark/90 rounded-2xl shadow-xl p-8 text-white">
               <h3 class="text-2xl font-heading font-bold mb-3">Self-Booking & Reservations</h3>
               <p class="text-white/80 text-sm mb-6 leading-relaxed">
                 Ready to reserve your safari dates immediately? Use our instant booking wizard or chat directly with our travel consultants.
@@ -192,7 +192,7 @@
                 <BookingForm 
                   package-name="Custom Safari & Adventure Trip" 
                   button-text="Launch Instant Self-Booking" 
-                  button-class="w-full bg-safari-orange text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-safari-orange/90 transition shadow-lg text-center"
+                  button-class="w-full bg-safari-green text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-safari-green/90 transition shadow-lg text-center"
                 />
                 <a href="https://wa.me/255686526171" target="_blank" rel="noopener noreferrer" 
                    class="flex items-center justify-center gap-2 w-full bg-green-600 text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-green-700 transition shadow-lg text-center">

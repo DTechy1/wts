@@ -6,7 +6,7 @@
     <section class="relative h-[500px] overflow-hidden">
       <img :src="getImageUrl('images/gallery/2026-01-24.webp')" 
            alt="About Walters Tours" class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">About Walters Tours & Safaris</h1>
@@ -16,13 +16,13 @@
     </section>
     
     <!-- Our Story -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 class="font-heading font-bold mb-6">
               <span class="block text-2xl md:text-3xl text-gray-600 mb-2">WE ARE NOT A BIG COMPANY</span>
-              <span class="block text-4xl md:text-6xl text-safari-orange">WE ARE YOUR TANZANIA FAMILY</span>
+              <span class="block text-4xl md:text-6xl text-safari-green">WE ARE YOUR TANZANIA FAMILY</span>
             </h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Walters Tours & Safaris Ltd did not start in an office with a leather chair, <strong>IT STARTED WITH A LION.</strong> In 2013 I was a volunteer guide in the Serengeti. Every day I would tell tourists "Welcome to my home". They laughed. They said, "Walter, open your company".
@@ -49,41 +49,41 @@
     </section>
     
     <!-- Awards & Recognition -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Awards & Recognition</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Awards & Recognition</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Recognized for excellence in tourism and customer service</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white rounded-xl p-8 shadow-lg text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">Travelers Choice</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">Travelers Choice</h3>
             <p class="text-gray-600">Nominated since 2016</p>
           </div>
           
           <div class="bg-white rounded-xl p-8 shadow-lg text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">6 Tourism Awards</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">6 Tourism Awards</h3>
             <p class="text-gray-600">Excellence in service</p>
           </div>
           
           <div class="bg-white rounded-xl p-8 shadow-lg text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">Licensed & Registered</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">Licensed & Registered</h3>
             <p class="text-gray-600">Tanzania Tourism Board</p>
           </div>
         </div>
@@ -91,17 +91,17 @@
     </section>
     
     <!-- Our Values -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Our Values</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Our Values</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="value in values" :key="value.title"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <div v-html="value.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div v-html="value.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ value.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ value.title }}</h3>
             <p class="text-gray-600">{{ value.description }}</p>
           </div>
         </div>
@@ -109,7 +109,7 @@
     </section>
     
     <!-- Why Choose Us -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
@@ -117,14 +117,14 @@
                  alt="Expert Guides" class="w-full h-full object-cover" />
           </div>
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Why Choose Us</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Why Choose Us</h2>
             <div class="space-y-4">
               <div v-for="reason in reasons" :key="reason.title" class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">{{ reason.title }}</div>
+                  <div class="font-semibold text-safari-dark">{{ reason.title }}</div>
                   <div class="text-gray-600">{{ reason.description }}</div>
                 </div>
               </div>
@@ -135,25 +135,25 @@
     </section>
     
     <!-- Stats Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Our Impact</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Our Impact</h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">10+</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">10+</div>
             <div class="text-gray-600">Years Experience</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">5,000+</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">5,000+</div>
             <div class="text-gray-600">Happy Travelers</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">50+</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">50+</div>
             <div class="text-gray-600">Safari Packages</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">100%</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">100%</div>
             <div class="text-gray-600">Licensed & Insured</div>
           </div>
         </div>
@@ -161,16 +161,16 @@
     </section>
     
     <!-- Gallery Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-brown/5 to-safari-orange/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-dark/5 to-safari-green/5">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-14">
-          <div class="inline-flex items-center gap-2 bg-safari-orange/10 text-safari-orange px-5 py-2 rounded-full text-sm font-semibold mb-5">
+          <div class="inline-flex items-center gap-2 bg-safari-green/10 text-safari-green px-5 py-2 rounded-full text-sm font-semibold mb-5">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
             </svg>
             Gallery
           </div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">Our Safari Experiences</h2>
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">Our Safari Experiences</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Explore the breathtaking beauty of Tanzania through our curated collection of stunning safari moments</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -202,11 +202,11 @@
     </section>
     
     <!-- Conservation -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Conservation Commitment</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Conservation Commitment</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               We believe in responsible tourism that protects Tanzania's natural heritage for future generations. 
               A portion of every safari goes directly to local conservation efforts and community development projects.
@@ -218,15 +218,15 @@
             </p>
             <div class="flex flex-wrap gap-4">
               <div class="bg-white px-6 py-3 rounded-lg shadow-md">
-                <div class="text-2xl font-bold text-safari-orange">10%</div>
+                <div class="text-2xl font-bold text-safari-green">10%</div>
                 <div class="text-sm text-gray-600">To Conservation</div>
               </div>
               <div class="bg-white px-6 py-3 rounded-lg shadow-md">
-                <div class="text-2xl font-bold text-safari-orange">100%</div>
+                <div class="text-2xl font-bold text-safari-green">100%</div>
                 <div class="text-sm text-gray-600">Local Guides</div>
               </div>
               <div class="bg-white px-6 py-3 rounded-lg shadow-md">
-                <div class="text-2xl font-bold text-safari-orange">Zero</div>
+                <div class="text-2xl font-bold text-safari-green">Zero</div>
                 <div class="text-sm text-gray-600">Plastic Policy</div>
               </div>
             </div>
@@ -240,17 +240,17 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Start Your Adventure Today</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">
           Join thousands of satisfied travelers who've experienced the magic of Tanzania with us
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
             Contact Us
           </a>
-          <a :href="$basePath + '/itineraries'" class="bg-safari-brown text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-brown/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="bg-safari-dark text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-dark/90 transition transform hover:scale-105 shadow-xl">
             View Packages
           </a>
         </div>

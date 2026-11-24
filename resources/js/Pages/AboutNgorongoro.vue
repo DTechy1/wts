@@ -10,7 +10,7 @@
       <img :src="getImageUrl('images/walters-tours-safaris-hu-chen-t-7Mlatf9iI-unsplash.jpg')" 
            alt="Ngorongoro Crater" 
            class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 via-safari-brown/80 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 via-safari-dark/80 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <div class="max-w-4xl">
@@ -29,18 +29,18 @@
     </section>
     
     <!-- Introduction -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="max-w-5xl mx-auto">
           <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-            <span class="font-bold text-safari-brown">Ngorongoro Crater</span>, nestled in the heart of Tanzania, 
+            <span class="font-bold text-safari-dark">Ngorongoro Crater</span>, nestled in the heart of Tanzania, 
             is a geological wonder and a haven for biodiversity. Created by the collapse of a massive volcano millions 
-            of years ago, the crater spans <span class="font-bold text-safari-orange">260 square kilometers (100 square miles)</span> 
-            and plunges to depths of around <span class="font-bold text-safari-orange">610 meters (2,000 feet)</span>.
+            of years ago, the crater spans <span class="font-bold text-safari-green">260 square kilometers (100 square miles)</span> 
+            and plunges to depths of around <span class="font-bold text-safari-green">610 meters (2,000 feet)</span>.
           </p>
           <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
             Encircled by steep walls, this natural amphitheater shelters a thriving ecosystem, making it a 
-            <span class="font-bold text-safari-orange">UNESCO World Heritage Site</span> and one of Africa's most 
+            <span class="font-bold text-safari-green">UNESCO World Heritage Site</span> and one of Africa's most 
             sought-after safari destinations. As the largest unbroken caldera in the world, the crater is a natural 
             wonder that serves as a fishbowl of wildlife.
           </p>
@@ -56,7 +56,7 @@
     </section>
     
     <!-- Geological Wonder Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -64,21 +64,21 @@
               A Geological Marvel
             </h2>
             <p class="text-lg text-white/90 leading-relaxed mb-6">
-              Formed approximately <span class="font-bold text-safari-orange">2-3 million years ago</span> when a giant 
+              Formed approximately <span class="font-bold text-safari-green">2-3 million years ago</span> when a giant 
               volcano exploded and collapsed on itself, Ngorongoro Crater is the world's largest intact and unfilled 
               volcanic caldera.
             </p>
             <p class="text-lg text-white/90 leading-relaxed mb-6">
-              The crater's walls rise <span class="font-bold text-safari-orange">400-610 meters</span> above the floor, 
+              The crater's walls rise <span class="font-bold text-safari-green">400-610 meters</span> above the floor, 
               creating a natural enclosure that has preserved one of the most unique ecosystems on Earth.
             </p>
             <div class="grid grid-cols-2 gap-6 mt-8">
               <div class="bg-white/10 rounded-xl p-6">
-                <div class="text-4xl font-heading font-bold text-safari-orange mb-2">260</div>
+                <div class="text-4xl font-heading font-bold text-safari-green mb-2">260</div>
                 <div class="text-white/90">Square Kilometers</div>
               </div>
               <div class="bg-white/10 rounded-xl p-6">
-                <div class="text-4xl font-heading font-bold text-safari-orange mb-2">610m</div>
+                <div class="text-4xl font-heading font-bold text-safari-green mb-2">610m</div>
                 <div class="text-white/90">Crater Depth</div>
               </div>
             </div>
@@ -93,9 +93,9 @@
     </section>
     
     <!-- Wildlife Paradise Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           A Wildlife Paradise
         </h2>
         
@@ -104,7 +104,7 @@
             <img :src="getImageUrl('images/walters-tours-safaris-denice-alex-LD6WgJlIpmk-unsplash.jpg')" 
                  alt="Ngorongoro Wildlife" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-8">
               <h3 class="text-3xl font-heading font-bold text-white mb-2">Dense Wildlife Population</h3>
               <p class="text-white/90 text-lg">One of the highest concentrations in Africa</p>
@@ -112,19 +112,19 @@
           </div>
           <div>
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              The crater floor is home to approximately <span class="font-bold text-safari-orange">25,000-30,000 animals</span>, 
+              The crater floor is home to approximately <span class="font-bold text-safari-green">25,000-30,000 animals</span>, 
               making it one of the most densely populated wildlife areas in Africa. The permanent water supply and lush 
               vegetation support a year-round resident population.
             </p>
             <div class="space-y-4">
               <div v-for="animal in wildlifeHighlights" :key="animal.name" class="flex items-start gap-4">
-                <div class="w-12 h-12 bg-safari-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg class="w-6 h-6 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                <div class="w-12 h-12 bg-safari-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-safari-brown mb-1">{{ animal.name }}</h4>
+                  <h4 class="font-bold text-safari-dark mb-1">{{ animal.name }}</h4>
                   <p class="text-gray-600 text-sm">{{ animal.description }}</p>
                 </div>
               </div>
@@ -135,19 +135,19 @@
     </section>
 
     <!-- Key Features Grid -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           What Makes Ngorongoro Special
         </h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="feature in features" :key="feature.title" 
                class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-6">
-              <div v-html="feature.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-6">
+              <div v-html="feature.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4">{{ feature.title }}</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4">{{ feature.title }}</h3>
             <p class="text-gray-700 leading-relaxed">{{ feature.description }}</p>
           </div>
         </div>
@@ -155,14 +155,14 @@
     </section>
     
     <!-- Gateway to Serengeti -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl group">
             <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
                  alt="Serengeti Plains" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-8">
               <h3 class="text-3xl font-heading font-bold text-white mb-2">Gateway to Serengeti</h3>
               <p class="text-white/90 text-lg">Continue your adventure to the endless plains</p>
@@ -173,7 +173,7 @@
               Did You Know?
             </h2>
             <p class="text-lg text-white/90 leading-relaxed mb-6">
-              After crossing Ngorongoro, you enter <span class="font-bold text-safari-orange">Serengeti National Park</span> 
+              After crossing Ngorongoro, you enter <span class="font-bold text-safari-green">Serengeti National Park</span> 
               - the paradise of predators and best wildlife viewing destination after Ngorongoro Crater.
             </p>
             <p class="text-lg text-white/90 leading-relaxed mb-8">
@@ -181,7 +181,7 @@
               wildlife viewing of the crater and the vast, endless plains of the Serengeti in one unforgettable journey.
             </p>
             <a :href="$basePath + '/why-serengeti'" 
-               class="inline-flex items-center gap-2 bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+               class="inline-flex items-center gap-2 bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
               <span>Discover Serengeti</span>
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -193,15 +193,15 @@
     </section>
     
     <!-- Wildlife Stats -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           Ngorongoro by Numbers
         </h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div v-for="stat in stats" :key="stat.number" class="text-center">
-            <div class="text-5xl md:text-6xl font-heading font-bold text-safari-orange mb-3">
+            <div class="text-5xl md:text-6xl font-heading font-bold text-safari-green mb-3">
               {{ stat.number }}
             </div>
             <div class="text-xl text-gray-700">{{ stat.label }}</div>
@@ -211,9 +211,9 @@
     </section>
     
     <!-- Experience Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-brown/5 to-safari-orange/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-dark/5 to-safari-green/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           Experience the Crater
         </h2>
         
@@ -223,7 +223,7 @@
                         index === 0 ? 'md:col-span-2 h-96' : 'h-80']">
             <img :src="image.src" :alt="image.alt" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 via-safari-brown/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 via-safari-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="absolute bottom-0 left-0 right-0 p-8 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <h3 class="text-white font-heading font-bold text-2xl mb-2">{{ image.caption }}</h3>
               <p class="text-white/90">{{ image.description }}</p>
@@ -234,7 +234,7 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-brown to-safari-brown/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-dark to-safari-dark/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
           Ready to Explore Ngorongoro Crater?
@@ -244,10 +244,10 @@
           Combine your visit with Serengeti for the ultimate Tanzanian safari adventure.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl">
             Plan Your Crater Safari
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-brown transition shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-dark transition shadow-xl">
             View Safari Packages
           </a>
         </div>

@@ -7,10 +7,10 @@
       <img :src="getImageUrl('images/walters-tours-safaris-camping-tents.png')" 
            alt="5 Days Camping Safari Group Sharing Budget" 
            class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/70 via-safari-brown/50 to-safari-brown/90"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/70 via-safari-dark/50 to-safari-dark/90"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div class="max-w-4xl">
-          <div class="inline-flex items-center gap-2 bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-flex items-center gap-2 bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
             </svg>
@@ -23,50 +23,50 @@
     </section>
     
     <!-- Overview Stats -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-12">
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-14 h-14 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-orange">
+            <div class="w-14 h-14 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-green">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-safari-brown mb-1">5 Days</h3>
+            <h3 class="text-xl font-bold text-safari-dark mb-1">5 Days</h3>
             <p class="text-gray-500 text-sm">Duration</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-14 h-14 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-orange">
+            <div class="w-14 h-14 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-green">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-safari-brown mb-1">Group Sharing</h3>
+            <h3 class="text-xl font-bold text-safari-dark mb-1">Group Sharing</h3>
             <p class="text-gray-500 text-sm">Budget Friendly</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-14 h-14 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-orange">
+            <div class="w-14 h-14 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-green">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-safari-brown mb-1">3 Top Parks</h3>
+            <h3 class="text-xl font-bold text-safari-dark mb-1">3 Top Parks</h3>
             <p class="text-gray-500 text-sm">Tarangire, Serengeti, Ngorongoro</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-14 h-14 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-orange">
+            <div class="w-14 h-14 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-3 text-safari-green">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-safari-brown mb-1">Camp Nights</h3>
+            <h3 class="text-xl font-bold text-safari-dark mb-1">Camp Nights</h3>
             <p class="text-gray-500 text-sm">Authentic Campsite Stays</p>
           </div>
         </div>
         
         <div>
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">About This Safari</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">About This Safari</h2>
           <p class="text-lg text-gray-700 mb-4 leading-relaxed">
             This 5-day camping safari is the perfect adventure for budget-conscious travelers who want to experience Tanzania's most iconic national parks without compromising on the quality of wildlife viewing. By sharing costs in a group, you get to explore Tarangire, the vast Serengeti, and the legendary Ngorongoro Crater � all while sleeping under the African stars in comfortable campsites.
           </p>
@@ -80,18 +80,18 @@
     <!-- Day by Day Itinerary -->
     <section class="py-16 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Day by Day Itinerary</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Day by Day Itinerary</h2>
         
         <div class="space-y-6">
-          <div v-for="(day, index) in itinerary" :key="index" class="bg-safari-white rounded-2xl overflow-hidden shadow-lg">
-            <div class="bg-safari-orange text-white p-6">
+          <div v-for="(day, index) in itinerary" :key="index" class="bg-safari-light rounded-2xl overflow-hidden shadow-lg">
+            <div class="bg-safari-green text-white p-6">
               <h3 class="text-2xl font-heading font-bold">Day {{ day.day }}: {{ day.title }}</h3>
               <p class="text-white/80 text-sm mt-1">{{ day.location }}</p>
             </div>
             <div class="p-6">
               <p class="text-gray-700 leading-relaxed">{{ day.description }}</p>
-              <div v-if="day.highlight" class="mt-4 p-4 bg-safari-orange/5 border-l-4 border-safari-orange rounded-r-xl">
-                <p class="text-sm text-safari-brown italic">{{ day.highlight }}</p>
+              <div v-if="day.highlight" class="mt-4 p-4 bg-safari-green/5 border-l-4 border-safari-green rounded-r-xl">
+                <p class="text-sm text-safari-dark italic">{{ day.highlight }}</p>
               </div>
             </div>
           </div>
@@ -100,21 +100,21 @@
     </section>
     
     <!-- Inclusions & Exclusions -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-center mb-12">Safari Details</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <svg class="w-7 h-7 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-7 h-7 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
               Included
             </h3>
             <ul class="space-y-3">
               <li v-for="item in included" :key="item" class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>{{ item }}</span>
@@ -124,14 +124,14 @@
           
           <div>
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <svg class="w-7 h-7 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-7 h-7 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
               </svg>
               Not Included
             </h3>
             <ul class="space-y-3">
               <li v-for="item in notIncluded" :key="item" class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
                 </svg>
                 <span>{{ item }}</span>
@@ -143,7 +143,7 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-4xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">Join the Next Group Departure</h2>
         <p class="text-xl text-white/90 mb-8">
@@ -154,9 +154,9 @@
             package-slug="camping-safari-5-days"
             package-name="5 Days Camping Safari Group Sharing Budget"
             button-text="Enquire Now"
-            button-class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105"
+            button-class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105"
           />
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             View Other Routes
           </a>
         </div>

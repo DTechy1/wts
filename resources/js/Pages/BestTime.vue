@@ -5,7 +5,7 @@
     <section class="relative h-[500px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Best Time to Visit" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/70"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Best Time to Visit Tanzania</h1>
@@ -14,10 +14,10 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="max-w-4xl mx-auto text-center mb-16">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">When Should You Visit?</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">When Should You Visit?</h2>
           <p class="text-lg text-gray-700 leading-relaxed">
             So you've been wondering when is the right time to visit Tanzania? Each season offers unique experiences, 
             from the Great Migration to perfect trekking conditions. Let us guide you through the year.
@@ -26,7 +26,7 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -49,20 +49,20 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-16">Season by Season Guide</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-16">Season by Season Guide</h2>
         
         <div class="space-y-12">
           <div v-for="season in seasons" :key="season.title" 
                class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 p-8">
               <div class="lg:col-span-1">
-                <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   {{ season.months }}
                 </div>
-                <h3 class="text-3xl font-heading font-bold text-safari-brown mb-3">{{ season.title }}</h3>
-                <p class="text-safari-orange font-semibold">{{ season.subtitle }}</p>
+                <h3 class="text-3xl font-heading font-bold text-safari-dark mb-3">{{ season.title }}</h3>
+                <p class="text-safari-green font-semibold">{{ season.subtitle }}</p>
               </div>
               <div class="lg:col-span-2">
                 <div class="space-y-4">
@@ -74,7 +74,7 @@
                 <div v-if="season.highlights" class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div v-for="highlight in season.highlights" :key="highlight" 
                        class="flex items-start gap-2">
-                    <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                     <span class="text-sm text-gray-600">{{ highlight }}</span>
@@ -87,41 +87,41 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
         <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           <div class="text-center mb-8">
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Important Booking Information</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Important Booking Information</h2>
             <p class="text-xl text-gray-700">
               Especially for safaris, Kilimanjaro treks and island getaways, it's essential to book in advance.
             </p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center">
-              <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
               </div>
-              <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Book Early</h3>
+              <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Book Early</h3>
               <p class="text-gray-600">Secure best rates and availability</p>
             </div>
             <div class="text-center">
-              <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
-              <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Best Prices</h3>
+              <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Best Prices</h3>
               <p class="text-gray-600">Early booking discounts available</p>
             </div>
             <div class="text-center">
-              <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
-              <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Guaranteed</h3>
+              <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Guaranteed</h3>
               <p class="text-gray-600">Confirmed accommodations and permits</p>
             </div>
           </div>
@@ -129,15 +129,15 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Ready to Plan Your Visit?</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Contact our experts to help you choose the perfect time for your Tanzania adventure</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl">
             Contact Our Experts
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-brown transition shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-dark transition shadow-xl">
             View Packages
           </a>
         </div>

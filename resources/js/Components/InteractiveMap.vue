@@ -8,8 +8,8 @@
         <div v-for="park in parks" :key="park.name"
              @click="selectPark(park)"
              class="bg-white rounded-xl p-6 shadow-lg cursor-pointer hover:shadow-2xl transition-all transform hover:-translate-y-2">
-          <div class="inline-flex items-center justify-center w-16 h-16 bg-safari-orange/10 rounded-full mb-3">
-            <svg class="w-8 h-8 text-safari-orange" fill="currentColor" viewBox="0 0 24 24">
+          <div class="inline-flex items-center justify-center w-16 h-16 bg-safari-green/10 rounded-full mb-3">
+            <svg class="w-8 h-8 text-safari-green" fill="currentColor" viewBox="0 0 24 24">
               <path :d="park.icon"/>
             </svg>
           </div>

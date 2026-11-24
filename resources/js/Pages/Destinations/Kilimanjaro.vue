@@ -16,15 +16,15 @@
              :class="index === currentSlide ? 'animate-slow-zoom' : ''" />
       </div>
 
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl relative z-10">
-          <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Mountain
           </div>
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Mount Kilimanjaro</h1>
           <p class="text-2xl text-white/95 max-w-3xl mb-8">Roof of Africa - The World's Tallest Free-Standing Mountain</p>
-          <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Start Your Climb
           </a>
         </div>
@@ -35,16 +35,16 @@
         <button v-for="(slide, index) in heroSlides" :key="'dot-'+index"
                 @click="currentSlide = index"
                 class="w-2.5 h-2.5 rounded-full transition-all duration-300"
-                :class="index === currentSlide ? 'bg-safari-orange scale-125' : 'bg-white/50 hover:bg-white/80'" />
+                :class="index === currentSlide ? 'bg-safari-green scale-125' : 'bg-white/50 hover:bg-white/80'" />
       </div>
     </section>
     
     <!-- Overview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Africa's Highest Peak</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Africa's Highest Peak</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Mount Kilimanjaro stands at 5,895 meters (19,341 feet) above sea level, making it the highest mountain in Africa and the world's tallest free-standing mountain. Located in Tanzania near the Kenyan border, this dormant volcano is one of the Seven Summits.
             </p>
@@ -53,11 +53,11 @@
             </p>
             <div class="grid grid-cols-2 gap-6">
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">5,895m</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">5,895m</div>
                 <div class="text-gray-600">Summit Height</div>
               </div>
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">7 Routes</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">7 Routes</div>
                 <div class="text-gray-600">To the Top</div>
               </div>
             </div>
@@ -71,27 +71,27 @@
     </section>
     
     <!-- Climbing Routes -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Climbing Routes</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Climbing Routes</h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Choose your path to the summit</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="route in routes" :key="route.name"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all">
             <div class="flex items-center justify-between mb-4">
-              <h3 class="text-xl font-heading font-bold text-safari-brown">{{ route.name }}</h3>
-              <span class="bg-safari-orange text-white px-3 py-1 rounded-full text-sm font-semibold">{{ route.days }}</span>
+              <h3 class="text-xl font-heading font-bold text-safari-dark">{{ route.name }}</h3>
+              <span class="bg-safari-green text-white px-3 py-1 rounded-full text-sm font-semibold">{{ route.days }}</span>
             </div>
             <p class="text-gray-600 mb-4">{{ route.description }}</p>
             <div class="space-y-2">
               <div class="flex items-center gap-2 text-sm">
                 <span class="text-gray-500">Difficulty:</span>
-                <span class="font-semibold text-safari-brown">{{ route.difficulty }}</span>
+                <span class="font-semibold text-safari-dark">{{ route.difficulty }}</span>
               </div>
               <div class="flex items-center gap-2 text-sm">
                 <span class="text-gray-500">Success Rate:</span>
-                <span class="font-semibold text-safari-brown">{{ route.successRate }}</span>
+                <span class="font-semibold text-safari-dark">{{ route.successRate }}</span>
               </div>
             </div>
           </div>
@@ -100,17 +100,17 @@
     </section>
     
     <!-- Climate Zones -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Five Climate Zones</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Five Climate Zones</h2>
         
         <div class="space-y-6">
           <div v-for="zone in climateZones" :key="zone.name"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
             <div class="flex flex-col md:flex-row gap-6">
               <div class="md:w-1/4">
-                <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">{{ zone.name }}</h3>
-                <p class="text-safari-orange font-semibold">{{ zone.altitude }}</p>
+                <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">{{ zone.name }}</h3>
+                <p class="text-safari-green font-semibold">{{ zone.altitude }}</p>
               </div>
               <div class="md:w-3/4">
                 <p class="text-gray-700">{{ zone.description }}</p>
@@ -122,14 +122,14 @@
     </section>
     
     <!-- Why Climb Kilimanjaro -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 class="text-4xl font-heading font-bold text-white mb-6">Why Climb Kilimanjaro?</h2>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
@@ -138,7 +138,7 @@
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
@@ -147,7 +147,7 @@
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
@@ -156,7 +156,7 @@
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
@@ -175,25 +175,25 @@
     </section>
     
     <!-- Stats -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Kilimanjaro Facts</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Kilimanjaro Facts</h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">5,895m</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">5,895m</div>
             <div class="text-gray-600">Uhuru Peak</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">35,000</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">35,000</div>
             <div class="text-gray-600">Climbers/Year</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">5-9</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">5-9</div>
             <div class="text-gray-600">Days to Summit</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">65%</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">65%</div>
             <div class="text-gray-600">Success Rate</div>
           </div>
         </div>
@@ -201,7 +201,7 @@
     </section>
 
     <!-- Photo Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-4">Kilimanjaro in Pictures</h2>
         <p class="text-white/70 text-center mb-12 max-w-2xl mx-auto">From lush rainforest to the icy arctic summit � experience every climate zone</p>
@@ -248,15 +248,15 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Ready to Conquer Kilimanjaro?</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Let our experienced guides lead you to the Roof of Africa</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
             Contact Us
           </a>
-          <a :href="$basePath + '/itineraries'" class="bg-safari-brown text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-brown/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="bg-safari-dark text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-dark/90 transition transform hover:scale-105 shadow-xl">
             View Itineraries
           </a>
         </div>

@@ -5,7 +5,7 @@
     <section class="relative h-[500px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Safari Packages" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/70"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Our Top Packages 2024-2025</h1>
@@ -14,9 +14,9 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Safari Packages</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Safari Packages</h2>
         <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Choose from our diverse range of safari experiences</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -25,9 +25,9 @@
             <div class="relative h-64 overflow-hidden group">
               <img :src="pkg.image" :alt="pkg.name" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 via-safari-brown/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 via-safari-dark/40 to-transparent"></div>
               <div class="absolute top-4 right-4">
-                <span class="bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold">{{ pkg.category }}</span>
+                <span class="bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold">{{ pkg.category }}</span>
               </div>
               <div class="absolute bottom-0 left-0 right-0 p-6">
                 <h3 class="text-2xl font-heading font-bold text-white">{{ pkg.name }}</h3>
@@ -35,14 +35,14 @@
             </div>
             <div class="p-6">
               <p class="text-gray-700 mb-4">{{ pkg.description }}</p>
-              <a :href="pkg.link" class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">View Details</a>
+              <a :href="pkg.link" class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">View Details</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-4">Day Trips</h2>
         <p class="text-center text-white/90 mb-16 max-w-2xl mx-auto">Perfect for travelers with limited time</p>
@@ -51,71 +51,71 @@
           <div v-for="trip in dayTrips" :key="trip.name" class="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all">
             <h3 class="text-lg font-heading font-bold text-white mb-2">{{ trip.name }}</h3>
             <p class="text-white/80 text-sm mb-4">{{ trip.duration }}</p>
-            <a :href="trip.link" class="text-safari-orange hover:text-white transition font-semibold text-sm">Learn More ?</a>
+            <a :href="trip.link" class="text-safari-green hover:text-white transition font-semibold text-sm">Learn More ?</a>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Adventures</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Adventures</h2>
         <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Beyond safaris</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="activity in activities" :key="activity.name" class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group">
             <div class="relative h-48 overflow-hidden">
               <img :src="activity.image" :alt="activity.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4">
                 <h3 class="text-lg font-heading font-bold text-white">{{ activity.name }}</h3>
               </div>
             </div>
             <div class="p-5">
               <p class="text-gray-700 text-sm mb-4">{{ activity.description }}</p>
-              <a :href="activity.link" class="text-safari-orange hover:text-safari-brown transition font-semibold text-sm">Explore ?</a>
+              <a :href="activity.link" class="text-safari-green hover:text-safari-dark transition font-semibold text-sm">Explore ?</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Cultural Experiences</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Cultural Experiences</h2>
         <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Immerse in culture</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div v-for="experience in culturalExperiences" :key="experience.name" class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all">
-            <h3 class="text-lg font-heading font-bold text-safari-brown mb-2">{{ experience.name }}</h3>
-            <a :href="experience.link" class="text-safari-orange hover:text-safari-brown transition font-semibold text-sm">Book Now ?</a>
+            <h3 class="text-lg font-heading font-bold text-safari-dark mb-2">{{ experience.name }}</h3>
+            <a :href="experience.link" class="text-safari-green hover:text-safari-dark transition font-semibold text-sm">Book Now ?</a>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-16">Services</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="service in services" :key="service.name" class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all">
-            <div class="w-16 h-16 bg-safari-orange rounded-xl flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-safari-green rounded-xl flex items-center justify-center mb-6">
               <div v-html="service.icon" class="text-white"></div>
             </div>
             <h3 class="text-2xl font-heading font-bold text-white mb-3">{{ service.name }}</h3>
             <p class="text-white/80 mb-6">{{ service.description }}</p>
-            <a :href="service.link" class="text-safari-orange hover:text-white transition font-semibold">Learn More</a>
+            <a :href="service.link" class="text-safari-green hover:text-white transition font-semibold">Learn More</a>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Message Our Team</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Experts available 24 hours, get your special price</p>
-        <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">Contact Experts</a>
+        <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">Contact Experts</a>
       </div>
     </section>
   </MainLayout>

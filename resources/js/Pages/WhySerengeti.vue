@@ -10,7 +10,7 @@
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Serengeti National Park" 
            class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 via-safari-brown/80 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 via-safari-dark/80 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <div class="max-w-4xl">
@@ -26,20 +26,20 @@
     </section>
     
     <!-- Introduction -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="max-w-5xl mx-auto">
           <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-            <span class="font-bold text-safari-brown">Serengeti National Park in Tanzania</span>, is one of the best wildlife 
+            <span class="font-bold text-safari-dark">Serengeti National Park in Tanzania</span>, is one of the best wildlife 
             destinations in Tanzania and Africa, a premier conservation area which is why the Serengeti is so important to the world 
             being one of the few places on earth where wild animals and their ecosystem exist in a highly protected environment.
           </p>
           <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
             The park is famous for its exceptional wildlife such as large populations of 
-            <span class="font-bold text-safari-orange">Lion, Cheetah, Elephant, African Buffalo and Rhino</span>, 
+            <span class="font-bold text-safari-green">Lion, Cheetah, Elephant, African Buffalo and Rhino</span>, 
             a few amongst the hundreds of animal and bird species that inhabit the reserve. Serengeti National Park is also where the 
-            annual <span class="font-bold text-safari-orange">Great Migration</span> happens, an amazing event of Nature, an important 
-            reason why Serengeti is recognised as one of the <span class="font-bold text-safari-brown">Seven Natural Wonders of the world</span>.
+            annual <span class="font-bold text-safari-green">Great Migration</span> happens, an amazing event of Nature, an important 
+            reason why Serengeti is recognised as one of the <span class="font-bold text-safari-dark">Seven Natural Wonders of the world</span>.
           </p>
           <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
             Below are some of the reasons why Serengeti is so important and worth a visit.
@@ -49,7 +49,7 @@
     </section>
     
     <!-- Wildlife Conservation Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -58,11 +58,11 @@
             </h2>
             <p class="text-lg text-white/90 leading-relaxed mb-6">
               Serengeti National Park is one of the best known and important wildlife conservation and wilderness areas in Africa. 
-              It is globally renowned for its wildlife with approximately <span class="font-bold text-safari-orange">25% of Tanzania's wildlife</span>.
+              It is globally renowned for its wildlife with approximately <span class="font-bold text-safari-green">25% of Tanzania's wildlife</span>.
             </p>
             <p class="text-lg text-white/90 leading-relaxed mb-6">
-              It hosts more than <span class="font-bold text-safari-orange">95 mammal species</span> besides being a recognized 
-              Important Bird Area (IBA) with close to <span class="font-bold text-safari-orange">550 bird species</span>.
+              It hosts more than <span class="font-bold text-safari-green">95 mammal species</span> besides being a recognized 
+              Important Bird Area (IBA) with close to <span class="font-bold text-safari-green">550 bird species</span>.
             </p>
           </div>
           <div class="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl group">
@@ -75,27 +75,27 @@
     </section>
     
     <!-- Great Migration Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl group order-2 lg:order-1">
             <img :src="getImageUrl('images/walters-tours-safaris-hu-chen-t-7Mlatf9iI-unsplash.jpg')" 
                  alt="Great Migration" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-8">
               <h3 class="text-3xl font-heading font-bold text-white mb-2">The Great Migration</h3>
               <p class="text-white/90 text-lg">Nature's Greatest Show on Earth</p>
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-6">
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-6">
               The Annual Great Migration
             </h2>
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
               Serengeti � Mara ecosystem is best known for the annual wildebeest migration which unfolds between the months of 
-              <span class="font-bold text-safari-orange">July-October</span>, as large herds of over 
-              <span class="font-bold text-safari-orange">a million plus wildebeest</span> or gnu as they are also known, 
+              <span class="font-bold text-safari-green">July-October</span>, as large herds of over 
+              <span class="font-bold text-safari-green">a million plus wildebeest</span> or gnu as they are also known, 
               migrate north into Masai Mara, crossing the Crocodile-infested Mara River on the way.
             </p>
             <p class="text-lg text-gray-700 leading-relaxed">
@@ -107,19 +107,19 @@
     </section>
 
     <!-- Key Highlights Grid -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           Why Serengeti is Unmissable
         </h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="highlight in highlights" :key="highlight.title" 
                class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-6">
-              <div v-html="highlight.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-6">
+              <div v-html="highlight.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4">{{ highlight.title }}</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4">{{ highlight.title }}</h3>
             <p class="text-gray-700 leading-relaxed">{{ highlight.description }}</p>
           </div>
         </div>
@@ -127,7 +127,7 @@
     </section>
     
     <!-- Wildlife Stats -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white text-center mb-16">
           Serengeti by Numbers
@@ -135,7 +135,7 @@
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div v-for="stat in stats" :key="stat.number" class="text-center">
-            <div class="text-5xl md:text-6xl font-heading font-bold text-safari-orange mb-3">
+            <div class="text-5xl md:text-6xl font-heading font-bold text-safari-green mb-3">
               {{ stat.number }}
             </div>
             <div class="text-xl text-white/90">{{ stat.label }}</div>
@@ -145,9 +145,9 @@
     </section>
     
     <!-- Gallery Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark text-center mb-16">
           Experience the Serengeti
         </h2>
         
@@ -156,7 +156,7 @@
                class="relative h-80 rounded-2xl overflow-hidden shadow-lg group cursor-pointer">
             <img :src="image.src" :alt="image.alt" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 via-safari-brown/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 via-safari-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <h3 class="text-white font-heading font-bold text-xl">{{ image.caption }}</h3>
             </div>
@@ -166,7 +166,7 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-brown to-safari-brown/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-dark to-safari-dark/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
           Ready to Witness the Serengeti?
@@ -176,10 +176,10 @@
           Experience the Great Migration, encounter the Big Five, and create memories that will last a lifetime.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl">
             Plan Your Serengeti Safari
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-brown transition shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-dark transition shadow-xl">
             View Safari Packages
           </a>
         </div>

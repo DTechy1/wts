@@ -3,14 +3,14 @@
     <HeroSection />
     
     <!-- WHO WE ARE -->
-    <section class="min-h-screen flex items-center py-12 md:py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="min-h-screen flex items-center py-12 md:py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl w-full">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           <div class="space-y-4 md:space-y-6">
-            <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold">ABOUT US</div>
+            <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold">ABOUT US</div>
             <h2 class="font-heading font-bold leading-tight">
               <span class="block text-xl md:text-2xl lg:text-3xl text-gray-600 mb-2">WE ARE NOT A BIG COMPANY</span>
-              <span class="block text-3xl md:text-4xl lg:text-6xl text-safari-orange">WE ARE YOUR TANZANIA FAMILY</span>
+              <span class="block text-3xl md:text-4xl lg:text-6xl text-safari-green">WE ARE YOUR TANZANIA FAMILY</span>
             </h2>
             <p class="text-base md:text-lg text-gray-700 leading-relaxed">
               Walters Tours & Safaris Ltd did not start in an office with a leather chair, <strong>IT STARTED WITH A LION.</strong> In 2013 I was a volunteer guide in the Serengeti. Every day I would tell tourists "Welcome to my home". They laughed. They said, "Walter, open your company".
@@ -28,10 +28,10 @@
               Because I am Tanzanian, I know every riverbed. I know which lion is fierce. We know which part of the Serengeti has the most stars at night.
             </p>
             <div class="flex flex-wrap gap-4 pt-2">
-              <a :href="$basePath + '/about'" class="bg-safari-orange text-white px-8 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+              <a :href="$basePath + '/about'" class="bg-safari-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 LEARN MORE
               </a>
-              <a :href="$basePath + '/contact'" class="bg-safari-brown text-white px-8 py-3 rounded-lg font-semibold hover:bg-safari-brown/90 transition">
+              <a :href="$basePath + '/contact'" class="bg-safari-dark text-white px-8 py-3 rounded-lg font-semibold hover:bg-safari-dark/90 transition">
                 Contact Us
               </a>
             </div>
@@ -41,13 +41,13 @@
                  alt="Walters Tours & Safaris" class="w-full h-full object-cover" />
             <!-- Floating badge -->
             <div class="absolute top-6 left-6 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
-              <div class="w-12 h-12 bg-safari-orange rounded-full flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 bg-safari-green rounded-full flex items-center justify-center flex-shrink-0">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                 </svg>
               </div>
               <div>
-                <div class="font-bold text-safari-brown text-sm">Travelers' Choice</div>
+                <div class="font-bold text-safari-dark text-sm">Travelers' Choice</div>
                 <div class="text-gray-500 text-xs">6 Award Winner · Since 2016</div>
               </div>
             </div>
@@ -57,21 +57,21 @@
     </section>
 
     <!-- WHY CHOOSE US -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">WHY CHOOSE A LOCAL FAMILY COMPANY?</h2>
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">WHY CHOOSE A LOCAL FAMILY COMPANY?</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <!-- Reason 1 -->
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4 text-center">1. DIRECTOR ON GROUND</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4 text-center">1. DIRECTOR ON GROUND</h3>
             <p class="text-gray-700 leading-relaxed text-center">
               I plan your itinerary myself. I inspect the vehicles myself. On the first day of your trip, you will have lunch with me in Arusha. There is no "customer service team". <strong>It is just me.</strong>
             </p>
@@ -79,12 +79,12 @@
 
           <!-- Reason 2 -->
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4 text-center">2. LOCAL MONEY STAYS LOCAL</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4 text-center">2. LOCAL MONEY STAYS LOCAL</h3>
             <p class="text-gray-700 leading-relaxed text-center">
               For every dollar you pay, 90% stays in Tanzania. It pays my chef Asha. It pays the car mechanic. It pays the school fees of my guide's child. <strong>When you book with us, you are building Tanzania.</strong>
             </p>
@@ -92,12 +92,12 @@
 
           <!-- Reason 3 -->
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4 text-center">3. SECRETS ARE ONLY FAMILY-FRIENDLY</h3>
+            <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4 text-center">3. SECRETS ARE ONLY FAMILY-FRIENDLY</h3>
             <p class="text-gray-700 leading-relaxed text-center">
               I know a picnic site that is deserted. I know a tree that the leopard loves. I know the gatekeeper will let you in 10 minutes early for sunrise. <strong>This is not written on Google. It is passed down from family to family.</strong>
             </p>
@@ -106,34 +106,34 @@
 
         <!-- License & Trust -->
         <div class="bg-white rounded-2xl p-8 md:p-12 shadow-xl mb-12">
-          <h3 class="text-3xl font-heading font-bold text-safari-brown mb-8 text-center">LICENSE & TRUST</h3>
+          <h3 class="text-3xl font-heading font-bold text-safari-dark mb-8 text-center">LICENSE & TRUST</h3>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="flex items-center gap-4 bg-safari-white rounded-xl p-6">
-              <svg class="w-8 h-8 text-safari-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <div class="flex items-center gap-4 bg-safari-light rounded-xl p-6">
+              <svg class="w-8 h-8 text-safari-green flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
               <div>
-                <p class="font-semibold text-safari-brown">Licensed by TALA</p>
+                <p class="font-semibold text-safari-dark">Licensed by TALA</p>
                 <p class="text-sm text-gray-600">Tanzania Association of Tour Operators</p>
               </div>
             </div>
-            <div class="flex items-center gap-4 bg-safari-white rounded-xl p-6">
-              <svg class="w-8 h-8 text-safari-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <div class="flex items-center gap-4 bg-safari-light rounded-xl p-6">
+              <svg class="w-8 h-8 text-safari-green flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
               <div>
-                <p class="font-semibold text-safari-brown">Registered with TANAPA & NCA</p>
+                <p class="font-semibold text-safari-dark">Registered with TANAPA & NCA</p>
                 <p class="text-sm text-gray-600">Official Park Operators</p>
               </div>
             </div>
-            <a href="https://www.tripadvisor.com/Attraction_Review-g297913-d34556950-Reviews-Walters_Tours_Safaris_Ltd-Arusha_Arusha_Region.html" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-safari-white hover:bg-emerald-50/60 border border-transparent hover:border-[#00aa6c]/30 rounded-xl p-6 transition-all shadow-sm hover:shadow-md group">
+            <a href="https://www.tripadvisor.com/Attraction_Review-g297913-d34556950-Reviews-Walters_Tours_Safaris_Ltd-Arusha_Arusha_Region.html" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-safari-light hover:bg-emerald-50/60 border border-transparent hover:border-[#00aa6c]/30 rounded-xl p-6 transition-all shadow-sm hover:shadow-md group">
               <div class="w-12 h-12 rounded-xl bg-[#00aa6c]/10 group-hover:bg-[#00aa6c] text-[#00aa6c] group-hover:text-white flex items-center justify-center flex-shrink-0 transition-colors">
                 <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 512 512">
                   <path d="M175.335 281.334c0 24.483-19.853 44.336-44.336 44.336-24.484 0-44.337-19.853-44.337-44.336 0-24.484 19.853-44.337 44.337-44.337 24.483 0 44.336 19.853 44.336 44.337zm205.554-44.337c-24.48 0-44.336 19.853-44.336 44.337 0 24.483 19.855 44.336 44.336 44.336 24.481 0 44.334-19.853 44.334-44.336-.006-24.47-19.839-44.31-44.309-44.323l-.025-.01v-.004zm125.002 44.337c0 68.997-55.985 124.933-124.999 124.933a124.466 124.466 0 01-84.883-33.252l-40.006 43.527-40.025-43.576a124.45 124.45 0 01-84.908 33.3c-68.968 0-124.933-55.937-124.933-124.932A124.586 124.586 0 0146.889 189L6 144.517h90.839c96.116-65.411 222.447-65.411 318.557 0H506l-40.878 44.484a124.574 124.574 0 0140.769 92.333zm-290.31 0c0-46.695-37.858-84.55-84.55-84.55-46.691 0-84.55 37.858-84.55 84.55 0 46.691 37.859 84.55 84.55 84.55 46.692 0 84.545-37.845 84.55-84.54v-.013.003zM349.818 155.1a244.01 244.01 0 00-187.666 0C215.532 175.533 256 223.254 256 278.893c0-55.634 40.463-103.362 93.826-123.786l-.005-.006h-.003zm115.64 126.224c0-46.694-37.858-84.55-84.55-84.55-46.691 0-84.552 37.859-84.552 84.55 0 46.692 37.855 84.55 84.553 84.55 46.697 0 84.55-37.858 84.55-84.55z"/>
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-safari-brown group-hover:text-[#00aa6c] transition-colors flex items-center gap-1.5">
+                <p class="font-semibold text-safari-dark group-hover:text-[#00aa6c] transition-colors flex items-center gap-1.5">
                   5-Star Rated Reviews
                   <svg class="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
@@ -148,28 +148,28 @@
     </section>
 
     <!-- Conclusion Full Width -->
-    <section class="relative bg-safari-brown py-20 md:py-24 overflow-hidden">
+    <section class="relative bg-safari-dark py-20 md:py-24 overflow-hidden">
       <div class="absolute inset-0">
         <img :src="getImageUrl('images/serengeti/pexels-bgbennett-20095156.jpg')" alt="Safari" class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-safari-brown/85"></div>
+        <div class="absolute inset-0 bg-safari-dark/85"></div>
       </div>
       <div class="max-w-6xl mx-auto text-white text-center relative z-10 px-4 md:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="text-left">
-            <div class="inline-flex items-center gap-2 bg-safari-orange/20 backdrop-blur-sm px-5 py-2 rounded-full mb-6">
-              <svg class="w-5 h-5 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="inline-flex items-center gap-2 bg-safari-green/20 backdrop-blur-sm px-5 py-2 rounded-full mb-6">
+              <svg class="w-5 h-5 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
               </svg>
-              <span class="font-semibold text-safari-orange">Our Promise</span>
+              <span class="font-semibold text-safari-green">Our Promise</span>
             </div>
             <h3 class="text-4xl md:text-5xl font-heading font-bold mb-6">CONCLUSION</h3>
             <p class="text-xl md:text-2xl mb-6 leading-relaxed">
-              A trip is a once in a lifetime experience. Don't give it to someone who doesn't care. <strong class="text-safari-orange">Give it to your Tanzanian family.</strong>
+              A trip is a once in a lifetime experience. Don't give it to someone who doesn't care. <strong class="text-safari-green">Give it to your Tanzanian family.</strong>
             </p>
-            <p class="text-2xl font-semibold mb-8 text-safari-orange">Ready to meet us?</p>
+            <p class="text-2xl font-semibold mb-8 text-safari-green">Ready to meet us?</p>
           </div>
           <div class="flex flex-col gap-4">
-            <a :href="$basePath + '/contact'" class="group inline-flex items-center justify-center gap-3 bg-safari-orange hover:bg-safari-orange/90 text-white px-10 py-4 rounded-xl font-semibold transition transform hover:scale-105 text-lg shadow-xl">
+            <a :href="$basePath + '/contact'" class="group inline-flex items-center justify-center gap-3 bg-safari-green hover:bg-safari-green/90 text-white px-10 py-4 rounded-xl font-semibold transition transform hover:scale-105 text-lg shadow-xl">
               <svg class="w-6 h-6 group-hover:rotate-12 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
               </svg>
@@ -188,7 +188,7 @@
     </section>
 
     <!-- STATS STRIP -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div v-for="stat in stats" :key="stat.label" class="text-center group">
@@ -213,8 +213,8 @@
     <section class="py-20 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Best Safaris</div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">Top 6 Tanzania Safari Itineraries</h2>
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Best Safaris</div>
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">Top 6 Tanzania Safari Itineraries</h2>
           <p class="text-gray-600 max-w-3xl mx-auto">Experience the best of Tanzania with our most popular safari packages, crafted for unforgettable wildlife adventures.</p>
         </div>
         
@@ -224,9 +224,9 @@
                class="group relative h-80 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
               <img :src="getImageUrl(itinerary.image)" :alt="itinerary.name"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/95 via-safari-dark/40 to-transparent"></div>
               <div class="absolute bottom-0 left-0 right-0 p-5">
-                <div class="inline-block bg-safari-orange text-white text-xs font-bold px-3 py-1 rounded-full mb-2">{{ itinerary.duration }}</div>
+                <div class="inline-block bg-safari-green text-white text-xs font-bold px-3 py-1 rounded-full mb-2">{{ itinerary.duration }}</div>
                 <h3 class="text-xl font-heading font-bold text-white mb-1">{{ itinerary.name }}</h3>
                 <p class="text-white/80 text-sm">{{ itinerary.highlight }}</p>
               </div>
@@ -234,10 +234,10 @@
           </div>
 
           <!-- New Itineraries Sidebar -->
-          <aside class="mt-10 lg:mt-0 lg:sticky lg:top-28 bg-safari-white rounded-2xl border border-gray-100 shadow-lg p-5">
+          <aside class="mt-10 lg:mt-0 lg:sticky lg:top-28 bg-safari-light rounded-2xl border border-gray-100 shadow-lg p-5">
             <div class="flex items-center justify-between mb-4">
-              <h3 class="text-lg font-heading font-bold text-safari-brown">New Itineraries</h3>
-              <span class="bg-safari-orange text-white text-xs font-bold px-3 py-1 rounded-full">Just Added</span>
+              <h3 class="text-lg font-heading font-bold text-safari-dark">New Itineraries</h3>
+              <span class="bg-safari-green text-white text-xs font-bold px-3 py-1 rounded-full">Just Added</span>
             </div>
             <div class="space-y-1">
               <a v-for="itinerary in newItineraries" :key="itinerary.name" :href="itinerary.link"
@@ -245,8 +245,8 @@
                 <img :src="getImageUrl(itinerary.image)" :alt="itinerary.name"
                      class="w-16 h-16 rounded-lg object-cover flex-shrink-0" />
                 <div class="min-w-0">
-                  <span class="text-xs font-semibold uppercase tracking-wider text-safari-orange">{{ itinerary.duration }}</span>
-                  <h4 class="text-sm font-semibold text-safari-brown leading-snug group-hover:text-safari-orange transition-colors">{{ itinerary.name }}</h4>
+                  <span class="text-xs font-semibold uppercase tracking-wider text-safari-green">{{ itinerary.duration }}</span>
+                  <h4 class="text-sm font-semibold text-safari-dark leading-snug group-hover:text-safari-green transition-colors">{{ itinerary.name }}</h4>
                   <p class="text-xs text-gray-500 truncate">{{ itinerary.highlight }}</p>
                 </div>
               </a>
@@ -255,7 +255,7 @@
         </div>
 
         <div class="text-center">
-          <a :href="$basePath + '/itineraries'" class="inline-block bg-safari-brown text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-brown/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/itineraries'" class="inline-block bg-safari-dark text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-dark/90 transition transform hover:scale-105">
             View All Itineraries
           </a>
         </div>
@@ -263,54 +263,74 @@
     </section>
 
     <!-- Interactive Overlapping Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-brown/20 to-safari-orange/20 overflow-hidden">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-dark/20 to-safari-green/20 overflow-hidden">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <div class="inline-flex items-center gap-2 bg-safari-orange/10 text-safari-orange px-5 py-2 rounded-full text-sm font-semibold mb-5">
+          <div class="inline-flex items-center gap-2 bg-safari-green/10 text-safari-green px-5 py-2 rounded-full text-sm font-semibold mb-5">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
             </svg>
             Gallery
           </div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">Our Safari Moments</h2>
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">Our Safari Moments</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Experience the magic of Tanzania through our lens</p>
         </div>
         
-        <div class="relative h-[600px] md:h-[700px]">
-          <div v-for="(image, index) in overlappingGallery" :key="index"
-               class="absolute transition-all duration-700 ease-out cursor-pointer group"
-               :style="{
-                 left: image.position.left,
-                 top: image.position.top,
-                 width: image.position.width,
-                 height: image.position.height,
-                 transform: `rotate(${image.position.rotate}deg) scale(${hoveredImage === index ? 1.1 : 1})`,
-                 zIndex: hoveredImage === index ? 30 : 20 - index,
-                 opacity: hoveredImage !== null && hoveredImage !== index ? 0.6 : 1
-               }"
-               @mouseenter="hoveredImage = index"
-               @mouseleave="hoveredImage = null">
-            <div class="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
-              <img :src="getImageUrl(image.src)" :alt="image.alt" 
-                   class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div class="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+        <!-- Justified gallery: each row's images share one height and keep their natural shape, so nothing is cropped or hidden -->
+        <div class="space-y-3 md:space-y-4">
+          <div v-for="(row, r) in galleryRows" :key="r" class="flex flex-col sm:flex-row gap-3 md:gap-4">
+            <button v-for="image in row" :key="image.src" type="button"
+                    class="group relative w-full overflow-hidden rounded-2xl shadow-lg bg-safari-dark/10 sm:[flex:var(--ratio)_1_0%] focus:outline-none focus-visible:ring-4 focus-visible:ring-safari-green"
+                    :style="{ '--ratio': image.ratio, aspectRatio: image.ratio }"
+                    :aria-label="`View larger: ${image.alt}`"
+                    @click="openLightbox(galleryImages.indexOf(image))">
+              <img :src="getImageUrl(image.src)" :alt="image.alt" loading="lazy"
+                   class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4 pt-10 text-left">
                 <p class="text-white font-semibold text-sm">{{ image.alt }}</p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
+
+        <!-- Lightbox -->
+        <Teleport to="body">
+          <div v-if="lightboxIndex !== null"
+               class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+               role="dialog" aria-modal="true" @click.self="closeLightbox">
+            <button type="button" aria-label="Close" @click="closeLightbox"
+                    class="absolute top-4 right-4 text-white/80 hover:text-white p-2">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+            <button type="button" aria-label="Previous photo" @click="stepLightbox(-1)"
+                    class="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white rounded-full p-3">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <figure class="flex flex-col items-center max-w-full">
+              <img :src="getImageUrl(galleryImages[lightboxIndex].src)" :alt="galleryImages[lightboxIndex].alt"
+                   class="max-h-[80vh] max-w-[88vw] object-contain rounded-xl shadow-2xl" />
+              <figcaption class="text-white/90 text-sm md:text-base mt-4 text-center px-12">
+                {{ galleryImages[lightboxIndex].alt }}
+                <span class="text-white/50 ml-2">{{ lightboxIndex + 1 }} / {{ galleryImages.length }}</span>
+              </figcaption>
+            </figure>
+            <button type="button" aria-label="Next photo" @click="stepLightbox(1)"
+                    class="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white rounded-full p-3">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </Teleport>
       </div>
     </section>
 
     <!-- WHY VISIT SERENGETI -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-[480px] rounded-2xl overflow-hidden shadow-2xl order-2 lg:order-1">
             <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')"
                  alt="Serengeti National Park" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
               <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4">
                 <p class="text-white text-sm font-semibold">One of the Seven Natural Wonders of the World</p>
@@ -319,25 +339,25 @@
             </div>
           </div>
           <div class="order-1 lg:order-2">
-            <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Why Serengeti?</div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Why! You Must Visit Serengeti</h2>
+            <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Why Serengeti?</div>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Why! You Must Visit Serengeti</h2>
             <p class="text-gray-700 leading-relaxed mb-4">
               Serengeti National Park is one of the best wildlife destinations in Tanzania and Africa — a premier conservation area that exists in a highly protected environment. The park is famous for its exceptional wildlife: large populations of Lion, Cheetah, Elephant, African Buffalo, and Rhino, among hundreds of other species.
             </p>
             <div class="space-y-4 mb-6">
               <div v-for="point in serengetiPoints" :key="point.title" class="flex items-start gap-4">
-                <div class="w-10 h-10 bg-safari-orange/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-orange">
+                <div class="w-10 h-10 bg-safari-green/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-green">
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="point.icon"/>
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-safari-brown">{{ point.title }}</h4>
+                  <h4 class="font-bold text-safari-dark">{{ point.title }}</h4>
                   <p class="text-gray-600 text-sm">{{ point.description }}</p>
                 </div>
               </div>
             </div>
-            <a :href="$basePath + '/why-serengeti'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+            <a :href="$basePath + '/why-serengeti'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
               Discover Serengeti
             </a>
           </div>
@@ -346,7 +366,7 @@
     </section>
 
     <!-- ABOUT NGORONGORO -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -361,14 +381,14 @@
             <p class="text-white/80 leading-relaxed mb-6 italic text-sm">
               Did you know? After crossing Ngorongoro you enter Serengeti National Park — the paradise of predators and best wildlife viewing destination in the world.
             </p>
-            <a :href="$basePath + '/about-ngorongoro'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+            <a :href="$basePath + '/about-ngorongoro'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
               Learn About Ngorongoro
             </a>
           </div>
           <div class="relative h-[480px] rounded-2xl overflow-hidden shadow-2xl">
             <img :src="getImageUrl('images/walters-tours-safaris-hu-chen-t-7Mlatf9iI-unsplash.jpg')"
                  alt="Ngorongoro Crater" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6">
               <div class="grid grid-cols-3 gap-3">
                 <div v-for="stat in ngorongoroStats" :key="stat.label" class="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center">
@@ -383,11 +403,11 @@
     </section>
 
     <!-- TOP DESTINATIONS Preview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Top Destinations</div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">Explore Our Top Destinations</h2>
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Top Destinations</div>
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">Explore Our Top Destinations</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">From Africa's highest peak to pristine beaches — discover Tanzania's most iconic locations</p>
         </div>
         
@@ -396,7 +416,7 @@
              class="group relative h-80 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
             <img :src="getImageUrl(destination.image)" :alt="destination.name" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/50 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/95 via-safari-dark/50 to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-6">
               <h3 class="text-2xl font-heading font-bold text-white mb-1">{{ destination.name }}</h3>
               <p class="text-white/90 text-sm">{{ destination.subtitle }}</p>
@@ -405,7 +425,7 @@
         </div>
         
         <div class="text-center">
-          <a :href="$basePath + '/destinations'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/destinations'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             View All Destinations
           </a>
         </div>
@@ -413,7 +433,7 @@
     </section>
 
     <!-- BEST TIME TO VISIT -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
           <div class="inline-block bg-white/10 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Seasonal Guide</div>
@@ -427,7 +447,7 @@
             <h3 class="text-2xl font-heading font-bold text-white mb-6">Why This Period is Ideal</h3>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
-                <div class="w-8 h-8 bg-safari-orange rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                <div class="w-8 h-8 bg-safari-green rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
@@ -438,7 +458,7 @@
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <div class="w-8 h-8 bg-safari-orange rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                <div class="w-8 h-8 bg-safari-green rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
@@ -449,7 +469,7 @@
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <div class="w-8 h-8 bg-safari-orange rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                <div class="w-8 h-8 bg-safari-green rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
                   <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
@@ -472,15 +492,15 @@
             <h4 class="text-xl font-heading font-bold text-white mb-4 mt-6">Planning & Tips</h4>
             <div class="space-y-3">
               <div>
-                <div class="text-safari-orange font-bold mb-1">Book Early</div>
+                <div class="text-safari-green font-bold mb-1">Book Early</div>
                 <div class="text-white/80 text-sm leading-relaxed">February is a highly sought-after month for wildlife viewing. Secure your Serengeti National Park or Ngorongoro Conservation Area lodge and guide bookings at least 9–12 months in advance.</div>
               </div>
               <div>
-                <div class="text-safari-orange font-bold mb-1">Accommodations</div>
+                <div class="text-safari-green font-bold mb-1">Accommodations</div>
                 <div class="text-white/80 text-sm leading-relaxed">Look into specialized mobile camps or permanent lodges in the Ndutu region to minimize travel time to the herds.</div>
               </div>
               <div>
-                <div class="text-safari-orange font-bold mb-1">Photography</div>
+                <div class="text-safari-green font-bold mb-1">Photography</div>
                 <div class="text-white/80 text-sm leading-relaxed">The vibrant green plains and dramatic cloud cover during this "green season" offer some of the most spectacular lighting for wildlife photography of the year.</div>
               </div>
             </div>
@@ -488,7 +508,7 @@
         </div>
 
         <div class="text-center">
-          <a :href="$basePath + '/best-time'" class="inline-block bg-safari-orange text-white px-10 py-4 rounded-xl font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl text-lg">
+          <a :href="$basePath + '/best-time'" class="inline-block bg-safari-green text-white px-10 py-4 rounded-xl font-semibold hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl text-lg">
             Full Seasonal Guide
           </a>
         </div>
@@ -496,11 +516,11 @@
     </section>
 
     <!-- OUR TEAM -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Team</div>
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Why Choose Walter's Tours & Safari?</h2>
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Our Team</div>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Why Choose Walter's Tours & Safari?</h2>
           <p class="text-gray-700 max-w-3xl mx-auto text-lg leading-relaxed mb-8">
             We provide outstanding customer service over 10 years with the best guides and online customer service. We are a reliable source of unbiased information about travel suppliers and prices, with a deep commitment to providing the best value for every dollar spent.
           </p>
@@ -508,13 +528,13 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           <div v-for="reason in whyChooseReasons" :key="reason.title" class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition-all flex items-start gap-4">
-            <div class="w-12 h-12 bg-safari-orange/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-orange">
+            <div class="w-12 h-12 bg-safari-green/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-green">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="reason.icon"/>
               </svg>
             </div>
             <div>
-              <h3 class="font-bold text-safari-brown mb-1">{{ reason.title }}</h3>
+              <h3 class="font-bold text-safari-dark mb-1">{{ reason.title }}</h3>
               <p class="text-gray-600 text-sm">{{ reason.description }}</p>
             </div>
           </div>
@@ -529,16 +549,16 @@
         <p class="text-center text-gray-400 text-sm font-semibold uppercase tracking-widest mb-8">Our Partners & Associations</p>
         <div class="flex flex-wrap items-center justify-center gap-12">
           <div class="flex items-center gap-3 grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-            <svg class="w-10 h-10 text-safari-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-10 h-10 text-safari-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
             </svg>
-            <span class="font-semibold text-safari-brown text-sm">Tanzania Tourism<br>Board Registered</span>
+            <span class="font-semibold text-safari-dark text-sm">Tanzania Tourism<br>Board Registered</span>
           </div>
           <a href="https://www.tripadvisor.com/Attraction_Review-g297913-d34556950-Reviews-Walters_Tours_Safaris_Ltd-Arusha_Arusha_Region.html" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 group" title="TripAdvisor Travelers' Choice">
             <svg class="w-10 h-10 text-[#00aa6c]" fill="currentColor" viewBox="0 0 512 512">
               <path d="M175.335 281.334c0 24.483-19.853 44.336-44.336 44.336-24.484 0-44.337-19.853-44.337-44.336 0-24.484 19.853-44.337 44.337-44.337 24.483 0 44.336 19.853 44.336 44.337zm205.554-44.337c-24.48 0-44.336 19.853-44.336 44.337 0 24.483 19.855 44.336 44.336 44.336 24.481 0 44.334-19.853 44.334-44.336-.006-24.47-19.839-44.31-44.309-44.323l-.025-.01v-.004zm125.002 44.337c0 68.997-55.985 124.933-124.999 124.933a124.466 124.466 0 01-84.883-33.252l-40.006 43.527-40.025-43.576a124.45 124.45 0 01-84.908 33.3c-68.968 0-124.933-55.937-124.933-124.932A124.586 124.586 0 0146.889 189L6 144.517h90.839c96.116-65.411 222.447-65.411 318.557 0H506l-40.878 44.484a124.574 124.574 0 0140.769 92.333zm-290.31 0c0-46.695-37.858-84.55-84.55-84.55-46.691 0-84.55 37.858-84.55 84.55 0 46.691 37.859 84.55 84.55 84.55 46.692 0 84.545-37.845 84.55-84.54v-.013.003zM349.818 155.1a244.01 244.01 0 00-187.666 0C215.532 175.533 256 223.254 256 278.893c0-55.634 40.463-103.362 93.826-123.786l-.005-.006h-.003zm115.64 126.224c0-46.694-37.858-84.55-84.55-84.55-46.691 0-84.552 37.859-84.552 84.55 0 46.692 37.855 84.55 84.553 84.55 46.697 0 84.55-37.858 84.55-84.55z"/>
             </svg>
-            <span class="font-semibold text-safari-brown text-sm">TripAdvisor<br>Travelers' Choice</span>
+            <span class="font-semibold text-safari-dark text-sm">TripAdvisor<br>Travelers' Choice</span>
           </a>
         </div>
         
@@ -558,7 +578,7 @@
 </template>
 
 <script setup>
-import { defineProps, ref } from 'vue';
+import { defineProps, ref, onUnmounted } from 'vue';
 import MainLayout from '../Layouts/MainLayout.vue';
 import HeroSection from '../Components/HeroSection.vue';
 import TestimonialsCarousel from '../Components/TestimonialsCarousel.vue';
@@ -567,7 +587,6 @@ import { useAssets } from '../composables/useAssets';
 
 const { getImageUrl } = useAssets();
 
-const hoveredImage = ref(null);
 
 const props = defineProps({
   testimonials: Array,
@@ -580,13 +599,41 @@ const stats = [
   { value: '3,650', label: 'Days of Experience', sub: '24/7 Expert Support', icon: 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z' },
 ];
 
-const overlappingGallery = [
-  { src: 'images/gallery/2026-01-24.webp', alt: 'Safari Adventure', position: { left: '5%', top: '10%', width: '35%', height: '45%', rotate: -8 } },
-  { src: 'images/gallery/2025-10-22.webp', alt: 'Wildlife Experience', position: { left: '45%', top: '5%', width: '40%', height: '50%', rotate: 5 } },
-  { src: 'images/gallery/2026-01-07 (9).webp', alt: 'Nature Beauty', position: { left: '55%', top: '45%', width: '38%', height: '48%', rotate: -3 } },
-  { src: 'images/gallery/2026-01-07 (8).webp', alt: 'Safari Memories', position: { left: '10%', top: '50%', width: '32%', height: '42%', rotate: 6 } },
-  { src: 'images/gallery/2026-01-07 (3).webp', alt: 'Tanzania Views', position: { left: '35%', top: '25%', width: '30%', height: '38%', rotate: -5 } },
+// ratio = width / height of the source image; rows are grouped so their heights come out nearly equal
+const galleryRows = [
+  [
+    { src: 'images/gallery/walters-tours-pop-up-roof-safari-ngorongoro-crater.webp', alt: 'Pop-up roof safari vehicle at Ngorongoro Crater', ratio: 576 / 914 },
+    { src: 'images/gallery/walters-tours-safari-jeep-national-park-picnic-site.webp', alt: 'Walters Tours safari jeep at a national park picnic site', ratio: 1080 / 812 },
+    { src: 'images/gallery/walters-tours-safaris-logo-safari-vehicle.webp', alt: 'Walters Tours & Safaris logo on our safari vehicle', ratio: 901 / 1080 },
+  ],
+  [
+    { src: 'images/gallery/walters-tours-safari-land-cruiser-tanzania.webp', alt: 'Walters Tours & Safaris Land Cruiser refuelling for a Tanzania safari', ratio: 1080 / 812 },
+    { src: 'images/gallery/walters-tours-green-safari-land-cruiser.webp', alt: 'Green Walters Tours safari Land Cruiser ready for guests', ratio: 1080 / 812 },
+  ],
 ];
+const galleryImages = galleryRows.flat();
+
+const lightboxIndex = ref(null);
+const onLightboxKey = (e) => {
+  if (e.key === 'Escape') closeLightbox();
+  else if (e.key === 'ArrowRight') stepLightbox(1);
+  else if (e.key === 'ArrowLeft') stepLightbox(-1);
+};
+const openLightbox = (index) => {
+  lightboxIndex.value = index;
+  document.body.style.overflow = 'hidden';
+  window.addEventListener('keydown', onLightboxKey);
+};
+const closeLightbox = () => {
+  lightboxIndex.value = null;
+  document.body.style.overflow = '';
+  window.removeEventListener('keydown', onLightboxKey);
+};
+const stepLightbox = (dir) => {
+  const n = galleryImages.length;
+  lightboxIndex.value = (lightboxIndex.value + dir + n) % n;
+};
+onUnmounted(closeLightbox);
 
 const topItineraries = [
   {

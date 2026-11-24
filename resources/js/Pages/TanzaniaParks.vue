@@ -7,7 +7,7 @@
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Tanzania Parks" 
            class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/75"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/75"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-6xl font-heading font-bold text-white mb-6">
@@ -24,19 +24,19 @@
     </section>
     
     <!-- Introduction -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="max-w-4xl mx-auto text-center mb-12">
           <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            With <span class="font-bold text-safari-orange">38% of its land reserved as protected wildlife areas</span>, 
+            With <span class="font-bold text-safari-green">38% of its land reserved as protected wildlife areas</span>, 
             Tanzania offers a wide choice of national parks and game reserves, all designed for different interests 
             and travel preferences.
           </p>
           <p class="text-lg text-gray-700 leading-relaxed">
             Before you head off on your luxury or budget safari holiday in Tanzania, you'll need to know which parks 
             and reserves are best suited to you. There are two main safari circuits: the popular 
-            <span class="font-bold text-safari-brown">Northern Circuit</span> boasts the stars of Tanzania including 
-            the Serengeti and Ngorongoro Crater, while the quieter <span class="font-bold text-safari-brown">Southern Circuit</span> 
+            <span class="font-bold text-safari-dark">Northern Circuit</span> boasts the stars of Tanzania including 
+            the Serengeti and Ngorongoro Crater, while the quieter <span class="font-bold text-safari-dark">Southern Circuit</span> 
             offers a remote wilderness experience away from the crowds.
           </p>
         </div>
@@ -46,7 +46,7 @@
     <!-- Parks Grid -->
     <section class="py-20 px-4 md:px-8 lg:px-12">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">
           Our Favourite National Parks
         </h2>
         
@@ -56,7 +56,7 @@
             <div class="relative h-64 overflow-hidden group">
               <img :src="park.image" :alt="park.name" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 via-safari-brown/40 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 via-safari-dark/40 to-transparent"></div>
               <div class="absolute bottom-0 left-0 right-0 p-6">
                 <h3 class="text-3xl font-heading font-bold text-white mb-2">{{ park.name }}</h3>
                 <p class="text-white/90 text-sm">{{ park.subtitle }}</p>
@@ -68,13 +68,13 @@
               
               <div class="space-y-3 mb-6">
                 <div class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   <span class="text-sm text-gray-600">{{ park.highlight1 }}</span>
                 </div>
                 <div class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   <span class="text-sm text-gray-600">{{ park.highlight2 }}</span>
@@ -82,7 +82,7 @@
               </div>
               
               <a :href="park.link" 
-                 class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+                 class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 Explore {{ park.name }}
               </a>
             </div>
@@ -92,7 +92,7 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">
           Ready to Explore Tanzania's Wildlife?
@@ -101,10 +101,10 @@
           Let us help you plan your perfect safari adventure across Tanzania's magnificent national parks
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Plan Your Safari
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-brown transition">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-dark transition">
             View Packages
           </a>
         </div>

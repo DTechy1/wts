@@ -9,15 +9,15 @@
     <section class="relative h-[600px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-sammy-wong-wzeGc7Uqopc-unsplash.jpg')" 
            alt="Family Safari" class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Kid-Friendly Adventures
           </div>
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Family Safaris</h1>
           <p class="text-2xl text-white/95 max-w-3xl mb-8">Create Unforgettable Memories with Your Loved Ones</p>
-          <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Plan Family Adventure
           </a>
         </div>
@@ -25,10 +25,10 @@
     </section>
     
     <!-- Overview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Safari Adventures for All Ages</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Safari Adventures for All Ages</h2>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
             Our family safaris are specially designed to engage and excite travelers of all ages. With kid-friendly 
             accommodations, flexible schedules, and educational experiences, we make sure everyone from toddlers to 
@@ -38,39 +38,39 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">All Ages Welcome</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">All Ages Welcome</h3>
             <p class="text-gray-600">From toddlers to teens</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Safe & Secure</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Safe & Secure</h3>
             <p class="text-gray-600">Family-friendly vehicles</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Educational</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Educational</h3>
             <p class="text-gray-600">Learning through adventure</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-10 h-10 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-20 h-20 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-10 h-10 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
               </svg>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">Flexible Pace</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">Flexible Pace</h3>
             <p class="text-gray-600">Adapted to family needs</p>
           </div>
         </div>
@@ -78,18 +78,18 @@
     </section>
     
     <!-- Why Family Safari -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Why Choose Family Safari?</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Why Choose Family Safari?</h2>
             <div class="space-y-4">
               <div v-for="reason in reasons" :key="reason.title" class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">{{ reason.title }}</div>
+                  <div class="font-semibold text-safari-dark">{{ reason.title }}</div>
                   <div class="text-gray-600">{{ reason.description }}</div>
                 </div>
               </div>
@@ -104,17 +104,17 @@
     </section>
     
     <!-- Kid-Friendly Features -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Kid-Friendly Features</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Kid-Friendly Features</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="feature in features" :key="feature.title"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-4">
-              <div v-html="feature.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-4">
+              <div v-html="feature.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ feature.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ feature.title }}</h3>
             <p class="text-gray-600">{{ feature.description }}</p>
           </div>
         </div>
@@ -122,9 +122,9 @@
     </section>
     
     <!-- Family Packages -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Family Safari Packages</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Family Safari Packages</h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Specially designed itineraries for families</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -134,25 +134,25 @@
               <img :src="getImageUrl(pkg.image)" :alt="pkg.title" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
               <div class="absolute top-4 right-4">
-                <span class="bg-safari-orange text-white px-3 py-1 rounded-full text-sm font-semibold">{{ pkg.days }}</span>
+                <span class="bg-safari-green text-white px-3 py-1 rounded-full text-sm font-semibold">{{ pkg.days }}</span>
               </div>
               <div class="absolute top-4 left-4">
-                <span class="bg-safari-brown text-white px-3 py-1 rounded-full text-sm font-semibold">{{ pkg.ages }}</span>
+                <span class="bg-safari-dark text-white px-3 py-1 rounded-full text-sm font-semibold">{{ pkg.ages }}</span>
               </div>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-heading font-bold text-safari-brown mb-2">{{ pkg.title }}</h3>
+              <h3 class="text-xl font-heading font-bold text-safari-dark mb-2">{{ pkg.title }}</h3>
               <p class="text-gray-600 mb-4">{{ pkg.description }}</p>
               <div class="space-y-2 mb-4">
                 <div v-for="highlight in pkg.highlights" :key="highlight" class="flex items-center gap-2 text-sm text-gray-600">
-                  <svg class="w-4 h-4 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-4 h-4 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   {{ highlight }}
                 </div>
               </div>
-              <div class="text-safari-orange font-semibold mb-4">From ${{ pkg.price }}/person</div>
-              <a :href="$basePath + '/contact'" class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+              <div class="text-safari-green font-semibold mb-4">From ${{ pkg.price }}/person</div>
+              <a :href="$basePath + '/contact'" class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 Book Family Safari
               </a>
             </div>
@@ -162,7 +162,7 @@
     </section>
     
     <!-- Age-Specific Activities -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-12">Activities by Age Group</h2>
         
@@ -170,10 +170,10 @@
           <div v-for="ageGroup in ageGroups" :key="ageGroup.title"
                class="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all">
             <h3 class="text-2xl font-heading font-bold text-white mb-4">{{ ageGroup.title }}</h3>
-            <p class="text-safari-orange font-semibold mb-4">{{ ageGroup.age }}</p>
+            <p class="text-safari-green font-semibold mb-4">{{ ageGroup.age }}</p>
             <ul class="space-y-2">
               <li v-for="activity in ageGroup.activities" :key="activity" class="text-white/80 flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 {{ activity }}
@@ -185,14 +185,14 @@
     </section>
     
     <!-- Parent Tips -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Tips for Parents</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Tips for Parents</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div v-for="tip in tips" :key="tip.title"
                class="bg-white rounded-xl p-6 shadow-lg">
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ tip.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ tip.title }}</h3>
             <p class="text-gray-600">{{ tip.description }}</p>
           </div>
         </div>
@@ -200,13 +200,13 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Create Family Memories That Last Forever</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">
           Give your children the gift of adventure and wildlife wonder
         </p>
-        <a :href="$basePath + '/contact'" class="inline-block bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+        <a :href="$basePath + '/contact'" class="inline-block bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
           Plan Your Family Safari
         </a>
       </div>

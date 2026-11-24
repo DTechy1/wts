@@ -9,15 +9,15 @@
     <section class="relative h-[600px] overflow-hidden">
       <img :src="getImageUrl('images/ngorongoro/pexels-alexandra-karnasopoulos-1962842-7205279.jpg')" 
            alt="Ngorongoro Crater" class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Conservation Area
           </div>
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Ngorongoro Crater</h1>
           <p class="text-2xl text-white/95 max-w-3xl mb-8">Africa's Garden of Eden - The World's Largest Intact Caldera</p>
-          <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Plan Your Visit
           </a>
         </div>
@@ -25,11 +25,11 @@
     </section>
     
     <!-- Overview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">The Natural Wonder</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">The Natural Wonder</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Ngorongoro Crater is the world's largest intact volcanic caldera, formed when a giant volcano exploded and collapsed on itself 2-3 million years ago. The crater floor covers 260 square kilometers and is surrounded by 600-meter high walls.
             </p>
@@ -38,11 +38,11 @@
             </p>
             <div class="grid grid-cols-2 gap-6">
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">260 km�</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">260 km�</div>
                 <div class="text-gray-600">Crater Floor</div>
               </div>
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">30,000</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">30,000</div>
                 <div class="text-gray-600">Animals</div>
               </div>
             </div>
@@ -56,17 +56,17 @@
     </section>
     
     <!-- Key Features -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Why Visit Ngorongoro</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Why Visit Ngorongoro</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="feature in features" :key="feature.title"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-4">
-              <div v-html="feature.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-4">
+              <div v-html="feature.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ feature.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ feature.title }}</h3>
             <p class="text-gray-600">{{ feature.description }}</p>
           </div>
         </div>
@@ -74,7 +74,7 @@
     </section>
     
     <!-- Wildlife Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
@@ -82,44 +82,44 @@
                  alt="Ngorongoro Wildlife" class="w-full h-full object-cover" />
           </div>
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Wildlife Paradise</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Wildlife Paradise</h2>
             <p class="text-lg text-gray-700 mb-6 leading-relaxed">
               The crater's unique ecosystem supports an incredible diversity of wildlife year-round, thanks to permanent water sources and lush grazing areas.
             </p>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">The Big Five</div>
+                  <div class="font-semibold text-safari-dark">The Big Five</div>
                   <div class="text-gray-600">One of the few places to see all Big Five in one day</div>
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">Black Rhinos</div>
+                  <div class="font-semibold text-safari-dark">Black Rhinos</div>
                   <div class="text-gray-600">Best place in Tanzania to spot endangered black rhinos</div>
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">Flamingos</div>
+                  <div class="font-semibold text-safari-dark">Flamingos</div>
                   <div class="text-gray-600">Thousands of flamingos at Lake Magadi</div>
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">Dense Predator Population</div>
+                  <div class="font-semibold text-safari-dark">Dense Predator Population</div>
                   <div class="text-gray-600">Lions, leopards, cheetahs, and hyenas</div>
                 </div>
               </div>
@@ -130,25 +130,25 @@
     </section>
     
     <!-- Stats Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-12">Ngorongoro by Numbers</h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">610m</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">610m</div>
             <div class="text-white/90">Crater Depth</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">2-3M</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">2-3M</div>
             <div class="text-white/90">Years Old</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">25,000</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">25,000</div>
             <div class="text-white/90">Large Animals</div>
           </div>
           <div class="text-center">
-            <div class="text-5xl font-heading font-bold text-safari-orange mb-2">500+</div>
+            <div class="text-5xl font-heading font-bold text-safari-green mb-2">500+</div>
             <div class="text-white/90">Bird Species</div>
           </div>
         </div>
@@ -156,16 +156,16 @@
     </section>
     
     <!-- Photo Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Experience the Crater</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Experience the Crater</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div v-for="(photo, index) in photos" :key="index"
                class="relative h-64 rounded-xl overflow-hidden group">
             <img :src="getImageUrl(photo.image)" :alt="photo.caption" 
                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
               <div class="absolute bottom-0 left-0 right-0 p-4">
                 <p class="text-white font-semibold">{{ photo.caption }}</p>
               </div>
@@ -176,7 +176,7 @@
     </section>
     
     <!-- Photo Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-4">Ngorongoro in Pictures</h2>
         <p class="text-white/70 text-center mb-12 max-w-2xl mx-auto">Africa's Garden of Eden � a natural sanctuary unlike any other on earth</p>
@@ -223,15 +223,15 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Discover Ngorongoro Crater</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Experience one of Africa's most spectacular natural wonders</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
             Contact Us
           </a>
-          <a :href="$basePath + '/itineraries'" class="bg-safari-brown text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-brown/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="bg-safari-dark text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-dark/90 transition transform hover:scale-105 shadow-xl">
             View Packages
           </a>
         </div>

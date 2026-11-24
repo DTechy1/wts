@@ -1,11 +1,11 @@
 <template>
-  <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+  <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
     <div class="container mx-auto max-w-7xl">
       <h2 class="text-4xl md:text-5xl font-heading font-bold text-center mb-16">Why Choose Walters</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div v-for="reason in reasons" :key="reason.title" class="text-center">
-          <div class="inline-flex items-center justify-center w-20 h-20 bg-safari-orange rounded-full mb-6">
+          <div class="inline-flex items-center justify-center w-20 h-20 bg-safari-green rounded-full mb-6">
             <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="reason.icon"/>
             </svg>

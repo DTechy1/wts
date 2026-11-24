@@ -5,7 +5,7 @@
     <section class="relative h-[500px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Best Itineraries" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/70"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Best Itineraries Collection</h1>
@@ -14,10 +14,10 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Our Curated Itineraries</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Our Curated Itineraries</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Explore our handpicked collection of the best safari and adventure itineraries in Tanzania</p>
         </div>
         
@@ -28,9 +28,9 @@
               <div class="relative h-72 overflow-hidden group">
                 <img :src="itinerary.image" :alt="itinerary.name" 
                      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/50 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/95 via-safari-dark/50 to-transparent"></div>
                 <div class="absolute top-4 right-4">
-                  <span class="bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold">{{ itinerary.duration }}</span>
+                  <span class="bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold">{{ itinerary.duration }}</span>
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 p-6">
                   <h3 class="text-2xl font-heading font-bold text-white mb-2">{{ itinerary.name }}</h3>
@@ -42,7 +42,7 @@
                 
                 <div class="space-y-2 mb-6">
                   <div v-for="highlight in itinerary.highlights" :key="highlight" class="flex items-start gap-2">
-                    <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                     </svg>
                     <span class="text-sm text-gray-600">{{ highlight }}</span>
@@ -52,7 +52,7 @@
             </div>
             <div class="p-6 pt-0">
               <a :href="itinerary.link" 
-                 class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+                 class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 View Itinerary
               </a>
             </div>
@@ -64,7 +64,7 @@
           <button 
             @click="setPage(currentPage - 1)" 
             :disabled="currentPage === 1"
-            class="px-4 py-2 rounded-lg font-semibold bg-white border border-gray-200 text-safari-brown hover:bg-safari-orange/10 hover:text-safari-orange disabled:opacity-50 disabled:cursor-not-allowed transition"
+            class="px-4 py-2 rounded-lg font-semibold bg-white border border-gray-200 text-safari-dark hover:bg-safari-green/10 hover:text-safari-green disabled:opacity-50 disabled:cursor-not-allowed transition"
           >
             Previous
           </button>
@@ -72,14 +72,14 @@
             v-for="page in totalPages" 
             :key="page" 
             @click="setPage(page)"
-            :class="['px-4 py-2 rounded-lg font-semibold transition', currentPage === page ? 'bg-safari-orange text-white' : 'bg-white border border-gray-200 text-safari-brown hover:bg-safari-orange/10 hover:text-safari-orange']"
+            :class="['px-4 py-2 rounded-lg font-semibold transition', currentPage === page ? 'bg-safari-green text-white' : 'bg-white border border-gray-200 text-safari-dark hover:bg-safari-green/10 hover:text-safari-green']"
           >
             {{ page }}
           </button>
           <button 
             @click="setPage(currentPage + 1)" 
             :disabled="currentPage === totalPages"
-            class="px-4 py-2 rounded-lg font-semibold bg-white border border-gray-200 text-safari-brown hover:bg-safari-orange/10 hover:text-safari-orange disabled:opacity-50 disabled:cursor-not-allowed transition"
+            class="px-4 py-2 rounded-lg font-semibold bg-white border border-gray-200 text-safari-dark hover:bg-safari-green/10 hover:text-safari-green disabled:opacity-50 disabled:cursor-not-allowed transition"
           >
             Next
           </button>
@@ -87,15 +87,15 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Ready to Start Your Adventure?</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Let our experts help you customize the perfect itinerary for your Tanzania adventure</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl">
             Contact Our Experts
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-brown transition shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-dark transition shadow-xl">
             View All Packages
           </a>
         </div>
@@ -185,6 +185,20 @@ const itineraries = [
       'Private 4×4 vehicle & 1 night lodge'
     ],
     link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/zanzibar-flying-safari-2-days'
+  },
+  {
+    name: '3-Day Budget Safari: Serengeti & Ngorongoro',
+    duration: '3 Days',
+    subtitle: '2 Nights Serengeti + 1 Day Ngorongoro Crater',
+    image: getImageUrl('images/serengeti/pexels-mikeknibbs-17849789.jpg'),
+    description: 'An affordable 3-day safari from Arusha: two nights in the Serengeti with a full day of game drives, then an extended game drive in the Ngorongoro Crater before returning to Arusha.',
+    highlights: [
+      '2 nights in budget tented lodges in Serengeti',
+      'Full-day Serengeti game drive',
+      'Ngorongoro Crater game drive & picnic lunch',
+      'All meals, park fees & 4×4 safari jeep included'
+    ],
+    link: ((typeof window !== 'undefined' && window.APP_BASE_PATH) || '') + '/itineraries/serengeti-ngorongoro-budget-3-days'
   },
   {
     name: '5 Days Tanzania Safari',

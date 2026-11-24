@@ -7,10 +7,10 @@
       <img :src="getImageUrl('images/walters-tours-safaris-meru-trekking.png')" 
            alt="Mountain Meru 4 Days Trek" 
            class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/60 via-safari-brown/50 to-safari-brown/90"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/60 via-safari-dark/50 to-safari-dark/90"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div class="max-w-4xl">
-          <div class="inline-flex items-center gap-2 bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+          <div class="inline-flex items-center gap-2 bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -24,42 +24,42 @@
     </section>
     
     <!-- Overview Stats -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">4 Days</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">4 Days</h3>
             <p class="text-gray-600">Duration</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">4,566 m / 14,980 ft</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">4,566 m / 14,980 ft</h3>
             <p class="text-gray-600">Summit Altitude</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">Wildlife on Trail</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">Wildlife on Trail</h3>
             <p class="text-gray-600">Giraffes, Buffaloes & More</p>
           </div>
         </div>
         
         <div>
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">About Mountain Meru</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">About Mountain Meru</h2>
           <p class="text-lg text-gray-700 mb-4 leading-relaxed">
             Mountain Meru is Tanzania's second highest peak and a formidable but rewarding challenge for any trekker. Located in Arusha National Park, the mountain offers spectacular views of Kilimanjaro � Africa's highest peak � on clear days, along with a unique opportunity to encounter wildlife on the trail itself, including giraffes, buffaloes and various antelope species.
           </p>
@@ -74,13 +74,13 @@
     <section class="py-16 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Full Itinerary</div>
-          <h2 class="text-4xl font-heading font-bold text-safari-brown">Day by Day Schedule</h2>
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Full Itinerary</div>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark">Day by Day Schedule</h2>
         </div>
         
         <div class="space-y-6">
-          <div v-for="(day, index) in itinerary" :key="index" class="bg-safari-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div class="bg-safari-orange text-white p-6 flex items-center justify-between">
+          <div v-for="(day, index) in itinerary" :key="index" class="bg-safari-light rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="bg-safari-green text-white p-6 flex items-center justify-between">
               <div class="flex items-center gap-4">
                 <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                   <span class="text-white font-heading font-bold text-lg">{{ index + 1 }}</span>
@@ -97,12 +97,12 @@
             </div>
             <div class="p-6">
               <div class="flex flex-wrap gap-2 mb-4 md:hidden">
-                <span class="bg-safari-orange/10 text-safari-orange text-xs font-semibold px-3 py-1 rounded-full">{{ day.elevation }}</span>
+                <span class="bg-safari-green/10 text-safari-green text-xs font-semibold px-3 py-1 rounded-full">{{ day.elevation }}</span>
               </div>
               <p class="text-gray-700 leading-relaxed mb-4">{{ day.description }}</p>
               <div class="flex flex-wrap gap-4 text-sm text-gray-500 pt-4 border-t border-gray-100">
                 <span class="flex items-center gap-1.5">
-                  <svg class="w-4 h-4 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg class="w-4 h-4 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
                   </svg>
                   {{ day.accommodation }}
@@ -115,20 +115,20 @@
     </section>
     
     <!-- Included / Excluded -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-center mb-12">Trekking Package Details</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <svg class="w-7 h-7 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-7 h-7 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
               Included
             </h3>
             <ul class="space-y-3">
               <li v-for="item in included" :key="item" class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>{{ item }}</span>
@@ -137,14 +137,14 @@
           </div>
           <div>
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <svg class="w-7 h-7 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-7 h-7 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
               </svg>
               Not Included
             </h3>
             <ul class="space-y-3">
               <li v-for="item in notIncluded" :key="item" class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-safari-orange/60 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green/60 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
                 </svg>
                 <span class="text-white/80">{{ item }}</span>
@@ -156,7 +156,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-4xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">Ready to Climb Mountain Meru?</h2>
         <p class="text-xl text-white/90 mb-8">Contact us for available dates and group options for your Mountain Meru adventure</p>
@@ -165,9 +165,9 @@
             package-slug="mountain-meru-4-days"
             package-name="Mountain Meru � 4 Days Trek"
             button-text="Enquire Now"
-            button-class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105"
+            button-class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105"
           />
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             View Other Routes
           </a>
         </div>

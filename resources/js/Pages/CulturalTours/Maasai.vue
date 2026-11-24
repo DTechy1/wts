@@ -6,10 +6,10 @@
     <section class="relative h-[70vh] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-maasai-village-cultural.png')" 
            alt="Maasai Village Cultural Tour" class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 via-safari-brown/70 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 via-safari-dark/70 to-transparent"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-flex items-center gap-2 bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-flex items-center gap-2 bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762z"/>
             </svg>
@@ -22,10 +22,10 @@
             Step into the world of East Africa's most iconic warrior tribe and experience their unique culture, customs and traditions firsthand
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
-            <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105 text-center">
+            <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105 text-center">
               Book This Experience
             </a>
-            <a href="#villages" class="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-brown transition text-center">
+            <a href="#villages" class="inline-block border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-dark transition text-center">
               Explore Locations
             </a>
           </div>
@@ -34,24 +34,24 @@
     </section>
 
     <!-- Introduction -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+            <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
               Meet the Maasai
             </div>
-            <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-6 leading-tight">
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-6 leading-tight">
               The Iconic Warriors of East Africa
             </h2>
             <p class="text-lg text-gray-600 mb-6 leading-relaxed">
-              A lot of us have grown up watching documentaries about the African wild on National Geographic or Discovery channel. Whenever the cameras descend into the plains of East Africa, one warrior tribe dressed in brilliant reds and blues, almost always pops up on screens � <strong class="text-safari-brown">the Maasai</strong>.
+              A lot of us have grown up watching documentaries about the African wild on National Geographic or Discovery channel. Whenever the cameras descend into the plains of East Africa, one warrior tribe dressed in brilliant reds and blues, almost always pops up on screens � <strong class="text-safari-dark">the Maasai</strong>.
             </p>
             <p class="text-lg text-gray-600 mb-6 leading-relaxed">
               These semi-nomadic pastoralists live in and around the rift valley region of Northern Tanzania and Southern Kenya. On your safari trip, as you drive towards the national parks in this region, you will see the colorful Maasai herding their cattle or trying to sell you their artwork.
             </p>
             <p class="text-lg text-gray-600 leading-relaxed">
-              But did you know you can also <strong class="text-safari-brown">visit their village on your safari tour</strong> and interact and get a glimpse into their unique culture, customs and practices? If that sounds interesting, read on to know more about what to expect on a Maasai village tour and see if you would like to add one to your itinerary.
+              But did you know you can also <strong class="text-safari-dark">visit their village on your safari tour</strong> and interact and get a glimpse into their unique culture, customs and practices? If that sounds interesting, read on to know more about what to expect on a Maasai village tour and see if you would like to add one to your itinerary.
             </p>
           </div>
           <div class="relative">
@@ -61,8 +61,8 @@
                    class="w-full h-[500px] object-cover" />
             </div>
             <!-- Floating stat card -->
-            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 border-l-4 border-safari-orange">
-              <div class="text-3xl font-heading font-bold text-safari-brown">1,000+</div>
+            <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 border-l-4 border-safari-green">
+              <div class="text-3xl font-heading font-bold text-safari-dark">1,000+</div>
               <div class="text-gray-500 text-sm">Years of Culture & Heritage</div>
             </div>
           </div>
@@ -74,10 +74,10 @@
     <section id="villages" class="py-20 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
             Visit Locations
           </div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">
             Where Can You Visit The Maasai Villages?
           </h2>
           <p class="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -92,8 +92,8 @@
               <img :src="getImageUrl('images/walters-tours-safaris-hu-chen-t-7Mlatf9iI-unsplash.jpg')" 
                    alt="Ngorongoro Crater Rim"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
-              <div class="absolute top-4 right-4 bg-safari-orange text-white px-3 py-1 rounded-full text-xs font-bold">
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
+              <div class="absolute top-4 right-4 bg-safari-green text-white px-3 py-1 rounded-full text-xs font-bold">
                 Most Popular
               </div>
               <div class="absolute bottom-4 left-4">
@@ -104,7 +104,7 @@
               <p class="text-gray-600 leading-relaxed mb-4">
                 This is the most frequently visited Maasai village, easily accessible by tourists visiting Ngorongoro for crater tours or just passing through to get to Serengeti. Also the most scenic of all, given its location on the crater rim.
               </p>
-              <div class="flex items-center gap-2 text-sm text-safari-orange font-semibold">
+              <div class="flex items-center gap-2 text-sm text-safari-green font-semibold">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                 </svg>
@@ -119,7 +119,7 @@
               <img :src="getImageUrl('images/walters-tours-safaris-pexels-tanzania-wild-sky-986912744-20179685.jpg')" 
                    alt="Lake Natron Region"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
               <div class="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">
                 Most Authentic
               </div>
@@ -131,7 +131,7 @@
               <p class="text-gray-600 leading-relaxed mb-4">
                 The Maasai villages here are permanent, making this visit feel more authentic compared to other locations. You'll see how cows are milked, witness the mudding of Maasai houses, see how they construct their stoves and get a chance to take part. Tours can last up to 6 hours.
               </p>
-              <div class="flex items-center gap-2 text-sm text-safari-orange font-semibold">
+              <div class="flex items-center gap-2 text-sm text-safari-green font-semibold">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                 </svg>
@@ -146,7 +146,7 @@
               <img :src="getImageUrl('images/walters-tours-safaris-denice-alex-LD6WgJlIpmk-unsplash.jpg')" 
                    alt="Other Maasai Village Locations"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/80 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/80 to-transparent"></div>
               <div class="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold">
                 Convenient
               </div>
@@ -158,7 +158,7 @@
               <p class="text-gray-600 leading-relaxed mb-4">
                 Other Maasai villages can be found near Mto Wa Mbu, Tarangire, Arusha, Mikumi National Park, Serengeti-Ngorongoro border, and Moshi. These are mostly located on the way to important sites and are perfect if you can't fit the other locations into your itinerary.
               </p>
-              <div class="flex items-center gap-2 text-sm text-safari-orange font-semibold">
+              <div class="flex items-center gap-2 text-sm text-safari-green font-semibold">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                 </svg>
@@ -171,10 +171,10 @@
     </section>
 
     <!-- What to Expect -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-brown to-safari-brown/95">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-dark to-safari-dark/95">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <div class="inline-block bg-safari-orange text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
             The Experience
           </div>
           <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
@@ -188,7 +188,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="(item, index) in experiences" :key="index" 
                class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 group">
-            <div class="w-16 h-16 bg-safari-orange text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <div class="w-16 h-16 bg-safari-green text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <svg v-if="item.id === 'village'" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
               </svg>
@@ -210,13 +210,13 @@
     </section>
 
     <!-- Photo Gallery Highlights -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
             Cultural Highlights
           </div>
-          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">
+          <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">
             A Glimpse Into Maasai Life
           </h2>
         </div>
@@ -226,7 +226,7 @@
                :class="['relative rounded-2xl overflow-hidden group cursor-pointer', index === 0 ? 'md:col-span-2 md:row-span-2' : '']">
             <img :src="highlight.image" :alt="highlight.title" 
                  :class="['w-full object-cover transition-transform duration-700 group-hover:scale-110', index === 0 ? 'h-full min-h-[300px]' : 'h-48 md:h-56']" />
-            <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <div class="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
               <h4 class="text-white font-heading font-bold">{{ highlight.title }}</h4>
               <p class="text-white/80 text-sm">{{ highlight.subtitle }}</p>
@@ -237,7 +237,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-orange relative overflow-hidden">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-green relative overflow-hidden">
       <!-- Decorative -->
       <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
       <div class="absolute bottom-0 left-0 w-48 h-48 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2"></div>
@@ -250,10 +250,10 @@
           Experience the vibrant culture, traditional dances, and warm hospitality of the Maasai people � an unforgettable addition to any Tanzania safari itinerary
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105">
             Plan Your Cultural Tour
           </a>
-          <a :href="$basePath + '/cultural-tours/hadza'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/cultural-tours/hadza'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             Explore Hadzabe Tribe Visit ?
           </a>
         </div>

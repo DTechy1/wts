@@ -426,6 +426,12 @@ const routes = [
     component: () => import('../Pages/Itineraries/TanzaniaSafariAdventure15Days.vue'),
     meta: { title: '15-Day Tanzania Safari Adventure - Walters Tours & Safaris' }
   },
+  {
+    path: '/itineraries/serengeti-ngorongoro-budget-3-days',
+    name: 'itinerary-serengeti-ngorongoro-budget-3-days',
+    component: () => import('../Pages/Itineraries/SerengetiNgorongoroBudget3Days.vue'),
+    meta: { title: '3-Day Budget Safari: Serengeti & Ngorongoro - Walters Tours & Safaris' }
+  },
 
   // Catch-all 404 Route -> redirect to Home
   {

@@ -7,7 +7,7 @@
       <img :src="getImageUrl('images/walters-tours-safaris-denice-alex-LD6WgJlIpmk-unsplash.jpg')" 
            alt="Chemka Hot Springs" 
            class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/70 via-safari-brown/50 to-safari-brown/90"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/70 via-safari-dark/50 to-safari-dark/90"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div class="max-w-4xl">
           <h1 class="text-5xl md:text-6xl font-heading font-bold text-white mb-4">Chemka Hot Springs</h1>
@@ -17,11 +17,11 @@
     </section>
     
     <!-- Overview Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Tanzania's Hidden Paradise</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Tanzania's Hidden Paradise</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Chemka Hot Springs (also known as Kikuletwa Hot Springs) is a stunning natural oasis located 
               about 70 km from Arusha. This hidden gem features crystal-clear turquoise waters fed by 
@@ -34,20 +34,20 @@
             </p>
             
             <div class="grid grid-cols-2 gap-4">
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">24-26�C</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">24-26�C</div>
                 <div class="text-sm text-gray-600">Water Temp</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">6m Deep</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">6m Deep</div>
                 <div class="text-sm text-gray-600">Maximum Depth</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">70 km</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">70 km</div>
                 <div class="text-sm text-gray-600">From Arusha</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">Year-Round</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">Year-Round</div>
                 <div class="text-sm text-gray-600">Open Daily</div>
               </div>
             </div>
@@ -65,16 +65,16 @@
     <!-- Activities Section -->
     <section class="py-16 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Activities & Experiences</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Activities & Experiences</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div v-for="activity in activities" :key="activity.name" class="bg-safari-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <div v-for="activity in activities" :key="activity.name" class="bg-safari-light rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
             <div class="relative h-48 overflow-hidden group">
               <img :src="getImageUrl(activity.image)" :alt="activity.name" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             </div>
             <div class="p-6">
-              <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">{{ activity.name }}</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">{{ activity.name }}</h3>
               <p class="text-gray-600">{{ activity.description }}</p>
             </div>
           </div>
@@ -83,13 +83,13 @@
     </section>
     
     <!-- Key Features -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-center mb-12">Why Visit Chemka Hot Springs</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="feature in features" :key="feature.title" class="text-center">
-            <div class="w-16 h-16 bg-safari-orange rounded-full flex items-center justify-center mx-auto mb-4">
+            <div class="w-16 h-16 bg-safari-green rounded-full flex items-center justify-center mx-auto mb-4">
               <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
@@ -102,47 +102,47 @@
     </section>
     
     <!-- What to Bring -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">What to Bring</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">What to Bring</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div class="bg-white rounded-2xl p-8 shadow-lg">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-safari-orange rounded-full flex items-center justify-center">
+              <div class="w-12 h-12 bg-safari-green rounded-full flex items-center justify-center">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
                 </svg>
               </div>
-              <h3 class="text-2xl font-heading font-bold text-safari-brown">Essentials</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark">Essentials</h3>
             </div>
             <ul class="space-y-3 text-gray-700">
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Swimsuit and towel</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Sunscreen and sunglasses</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Camera (waterproof if possible)</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Water and snacks</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Change of clothes</span>
@@ -152,40 +152,40 @@
           
           <div class="bg-white rounded-2xl p-8 shadow-lg">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-safari-orange rounded-full flex items-center justify-center">
+              <div class="w-12 h-12 bg-safari-green rounded-full flex items-center justify-center">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
                 </svg>
               </div>
-              <h3 class="text-2xl font-heading font-bold text-safari-brown">Good to Know</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark">Good to Know</h3>
             </div>
             <ul class="space-y-3 text-gray-700">
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Changing facilities available</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Lockers for valuables</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Rope swing for adventurous visitors</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Best visited in the morning</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Can be combined with other day trips</span>
@@ -197,17 +197,17 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-4xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">Ready to Visit Chemka Hot Springs?</h2>
         <p class="text-xl text-white/90 mb-8">
           Perfect day trip for relaxation and refreshment after your safari
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/safaris/day-trips'" class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105">
+          <a :href="$basePath + '/safaris/day-trips'" class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105">
             View Day Trips
           </a>
-          <a :href="$basePath + '/contact'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/contact'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             Contact Us
           </a>
         </div>

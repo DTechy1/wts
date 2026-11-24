@@ -5,7 +5,7 @@
     <section class="relative h-[500px] overflow-hidden">
       <img :src="getImageUrl('images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg')" 
            alt="Top Destinations" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/70"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Our Top Destinations</h1>
@@ -14,10 +14,10 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16">
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-4">Explore Tanzania's Finest</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-4">Explore Tanzania's Finest</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">From Africa's highest peak to pristine beaches, discover the destinations that make Tanzania unforgettable</p>
         </div>
         
@@ -27,9 +27,9 @@
             <div class="relative h-80 overflow-hidden group">
               <img :src="destination.image" :alt="destination.name" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-safari-brown/95 via-safari-brown/50 to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-safari-dark/95 via-safari-dark/50 to-transparent"></div>
               <div class="absolute top-4 right-4">
-                <span class="bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold">{{ destination.category }}</span>
+                <span class="bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold">{{ destination.category }}</span>
               </div>
               <div class="absolute bottom-0 left-0 right-0 p-6">
                 <h3 class="text-3xl font-heading font-bold text-white mb-2">{{ destination.name }}</h3>
@@ -41,7 +41,7 @@
               
               <div class="space-y-2 mb-6">
                 <div v-for="highlight in destination.highlights" :key="highlight" class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   <span class="text-sm text-gray-600">{{ highlight }}</span>
@@ -49,7 +49,7 @@
               </div>
               
               <a :href="destination.link" 
-                 class="block w-full bg-safari-orange text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-orange/90 transition">
+                 class="block w-full bg-safari-green text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-safari-green/90 transition">
                 Explore {{ destination.name }}
               </a>
             </div>
@@ -58,15 +58,15 @@
       </div>
     </section>
     
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Ready to Explore These Destinations?</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Let us create the perfect itinerary combining your favorite destinations</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-safari-orange text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-safari-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-xl">
             Plan Your Journey
           </a>
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-brown transition shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-safari-dark transition shadow-xl">
             View Packages
           </a>
         </div>

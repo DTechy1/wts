@@ -9,15 +9,15 @@
     <section class="relative h-[600px] overflow-hidden">
       <img :src="getImageUrl('images/zanzibar/pexels-saila-holidays-zanzibar-1351717875-25706804.jpg')" 
            alt="Zanzibar" class="w-full h-full object-cover animate-ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-r from-safari-brown/95 to-safari-brown/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-safari-dark/95 to-safari-dark/60"></div>
       <div class="absolute inset-0 flex items-center px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-block bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-block bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Beach Paradise
           </div>
           <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6">Zanzibar</h1>
           <p class="text-2xl text-white/95 max-w-3xl mb-8">The Spice Island - Where Paradise Meets Culture</p>
-          <a :href="$basePath + '/contact'" class="inline-block bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105">
+          <a :href="$basePath + '/contact'" class="inline-block bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105">
             Plan Your Escape
           </a>
         </div>
@@ -25,11 +25,11 @@
     </section>
     
     <!-- Overview -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Island Paradise</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Island Paradise</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Zanzibar is a semi-autonomous archipelago off the coast of Tanzania, famous for its pristine white-sand beaches, turquoise waters, and rich cultural heritage. The main island, Unguja, is commonly referred to as Zanzibar.
             </p>
@@ -38,11 +38,11 @@
             </p>
             <div class="grid grid-cols-2 gap-6">
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">25�C</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">25�C</div>
                 <div class="text-gray-600">Avg Temperature</div>
               </div>
               <div class="bg-white p-6 rounded-xl shadow-md">
-                <div class="text-3xl font-bold text-safari-orange mb-2">Year-Round</div>
+                <div class="text-3xl font-bold text-safari-green mb-2">Year-Round</div>
                 <div class="text-gray-600">Beach Season</div>
               </div>
             </div>
@@ -56,9 +56,9 @@
     </section>
     
     <!-- Experiences -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange/5 to-safari-brown/5">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green/5 to-safari-dark/5">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-4">Zanzibar Experiences</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-4">Zanzibar Experiences</h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Discover the magic of the Spice Island</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -69,7 +69,7 @@
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ experience.title }}</h3>
+              <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ experience.title }}</h3>
               <p class="text-gray-600">{{ experience.description }}</p>
             </div>
           </div>
@@ -78,7 +78,7 @@
     </section>
     
     <!-- Stone Town -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
@@ -86,35 +86,35 @@
                  alt="Stone Town" class="w-full h-full object-cover" />
           </div>
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Historic Stone Town</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Historic Stone Town</h2>
             <p class="text-lg text-gray-700 mb-6 leading-relaxed">
               Stone Town, the old quarter of Zanzibar City, is a UNESCO World Heritage Site. Its winding alleys, bustling bazaars, mosques, and grand Arab houses reflect the island's diverse cultural influences from Africa, Arabia, India, and Europe.
             </p>
             <div class="space-y-4">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">UNESCO Heritage Site</div>
+                  <div class="font-semibold text-safari-dark">UNESCO Heritage Site</div>
                   <div class="text-gray-600">Protected historic architecture and culture</div>
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">Forodhani Gardens</div>
+                  <div class="font-semibold text-safari-dark">Forodhani Gardens</div>
                   <div class="text-gray-600">Famous night food market by the waterfront</div>
                 </div>
               </div>
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-safari-orange mt-1" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-6 h-6 text-safari-green mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <div>
-                  <div class="font-semibold text-safari-brown">House of Wonders</div>
+                  <div class="font-semibold text-safari-dark">House of Wonders</div>
                   <div class="text-gray-600">Iconic palace and museum</div>
                 </div>
               </div>
@@ -125,7 +125,7 @@
     </section>
     
     <!-- Beach Areas -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-12">Best Beach Areas</h2>
         
@@ -134,24 +134,24 @@
                class="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all">
             <h3 class="text-xl font-heading font-bold text-white mb-3">{{ beach.name }}</h3>
             <p class="text-white/80 mb-4">{{ beach.description }}</p>
-            <div class="text-safari-orange font-semibold text-sm">{{ beach.bestFor }}</div>
+            <div class="text-safari-green font-semibold text-sm">{{ beach.bestFor }}</div>
           </div>
         </div>
       </div>
     </section>
     
     <!-- Activities -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Things to Do</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Things to Do</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="activity in activities" :key="activity.title"
                class="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-4">
-              <div v-html="activity.icon" class="text-safari-orange"></div>
+            <div class="w-16 h-16 bg-safari-green/10 rounded-xl flex items-center justify-center mb-4">
+              <div v-html="activity.icon" class="text-safari-green"></div>
             </div>
-            <h3 class="text-xl font-heading font-bold text-safari-brown mb-3">{{ activity.title }}</h3>
+            <h3 class="text-xl font-heading font-bold text-safari-dark mb-3">{{ activity.title }}</h3>
             <p class="text-gray-600">{{ activity.description }}</p>
           </div>
         </div>
@@ -159,7 +159,7 @@
     </section>
     
     <!-- Photo Gallery -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-4">Zanzibar in Pictures</h2>
         <p class="text-white/70 text-center mb-12 max-w-2xl mx-auto">Turquoise waters, white sands, spice farms and Swahili culture � paradise captured</p>
@@ -206,15 +206,15 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-orange to-safari-orange/90">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-r from-safari-green to-safari-green/90">
       <div class="container mx-auto max-w-7xl text-center">
         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-6">Experience Zanzibar Magic</h2>
         <p class="text-xl text-white/95 mb-10 max-w-3xl mx-auto">Combine your safari with a relaxing beach holiday in paradise</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/contact'" class="bg-white text-safari-orange px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-white transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/contact'" class="bg-white text-safari-green px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-light transition transform hover:scale-105 shadow-xl">
             Contact Us
           </a>
-          <a :href="$basePath + '/itineraries'" class="bg-safari-brown text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-brown/90 transition transform hover:scale-105 shadow-xl">
+          <a :href="$basePath + '/itineraries'" class="bg-safari-dark text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-safari-dark/90 transition transform hover:scale-105 shadow-xl">
             View Packages
           </a>
         </div>

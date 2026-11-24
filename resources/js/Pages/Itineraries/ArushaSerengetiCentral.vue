@@ -9,10 +9,10 @@
     <section class="relative h-[70vh] min-h-[520px] overflow-hidden">
       <img :src="getImageUrl('images/Arusha/etienne-delorieux-NZpl4yxYcMg-unsplash.jpg')"
            alt="Arusha National Park" class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/50 via-safari-brown/60 to-safari-brown/95"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/50 via-safari-dark/60 to-safari-dark/95"></div>
       <div class="absolute inset-0 flex items-end pb-16 px-4 md:px-8 lg:px-12">
         <div class="container mx-auto max-w-7xl">
-          <div class="inline-flex items-center gap-2 bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-5">
+          <div class="inline-flex items-center gap-2 bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-5">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
             </svg>
@@ -31,7 +31,7 @@
     </section>
 
     <!-- Quick Stats -->
-    <section class="py-10 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-10 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div v-for="stat in quickStats" :key="stat.label" class="text-center text-white">
@@ -43,11 +43,11 @@
     </section>
 
     <!-- Overview -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-12">
-          <div class="inline-block bg-safari-orange/10 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">About the Park</div>
-          <h2 class="text-3xl md:text-4xl font-heading font-bold text-safari-brown">Tanzania's Best Kept Secret</h2>
+          <div class="inline-block bg-safari-green/10 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">About the Park</div>
+          <h2 class="text-3xl md:text-4xl font-heading font-bold text-safari-dark">Tanzania's Best Kept Secret</h2>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
@@ -56,21 +56,21 @@
               Located in northeastern Tanzania, between Kilimanjaro and Mount Meru, Arusha National Park is one of the least known parks in the country. Despite its relatively small size (137 km�), it offers an impressive variety of landscapes and wildlife, making it an ideal choice for a first safari with children, either by car or on foot.
             </p>
             
-            <div class="bg-gradient-to-br from-safari-orange/5 to-safari-brown/5 rounded-2xl p-6 mb-6">
-              <h3 class="text-2xl font-heading font-bold text-safari-brown mb-4">Is it worthwhile to go on safari in Arusha?</h3>
+            <div class="bg-gradient-to-br from-safari-green/5 to-safari-dark/5 rounded-2xl p-6 mb-6">
+              <h3 class="text-2xl font-heading font-bold text-safari-dark mb-4">Is it worthwhile to go on safari in Arusha?</h3>
               <p class="text-gray-700 leading-relaxed mb-4">
                 This is the question that many travelers ask us when they organize their trip to Tanzania with us. The answer is that it depends on the length of the trip, the budget and the parks you want to visit.
               </p>
               <p class="text-gray-700 leading-relaxed mb-3 font-semibold">As a general rule, we recommend visiting Arusha if:</p>
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-safari-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-5 h-5 text-safari-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   You do a 3-day safari (Tarangire, Ngorongoro, Lake Manyara) and you want to add a fourth day of Safari.
                 </li>
                 <li class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-safari-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="w-5 h-5 text-safari-green flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                   </svg>
                   You like walking and want to live the experience of a walking safari in the park.
@@ -85,16 +85,16 @@
         </div>
 
         <!-- Image Gallery -->
-        <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-brown/5 to-safari-orange/5">
+        <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-dark/5 to-safari-green/5">
           <div class="container mx-auto max-w-7xl">
             <div class="text-center mb-14">
-              <div class="inline-flex items-center gap-2 bg-safari-orange/10 text-safari-orange px-5 py-2 rounded-full text-sm font-semibold mb-5">
+              <div class="inline-flex items-center gap-2 bg-safari-green/10 text-safari-green px-5 py-2 rounded-full text-sm font-semibold mb-5">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
                 Gallery
               </div>
-              <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-brown mb-4">Arusha National Park</h2>
+              <h2 class="text-4xl md:text-5xl font-heading font-bold text-safari-dark mb-4">Arusha National Park</h2>
               <p class="text-gray-600 max-w-2xl mx-auto">Discover the hidden gem of Tanzania through stunning imagery</p>
             </div>
             
@@ -133,16 +133,16 @@
 
         <!-- What to See -->
         <div class="mb-12">
-          <h3 class="text-3xl font-heading font-bold text-safari-brown text-center mb-10">What can we see in Arusha National Park?</h3>
+          <h3 class="text-3xl font-heading font-bold text-safari-dark text-center mb-10">What can we see in Arusha National Park?</h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div v-for="item in highlights" :key="item.title"
                  class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
-              <div class="w-12 h-12 bg-safari-orange/10 rounded-xl flex items-center justify-center mb-4 text-safari-orange">
+              <div class="w-12 h-12 bg-safari-green/10 rounded-xl flex items-center justify-center mb-4 text-safari-green">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="item.icon"/>
                 </svg>
               </div>
-              <h3 class="text-lg font-heading font-bold text-safari-brown mb-2">{{ item.title }}</h3>
+              <h3 class="text-lg font-heading font-bold text-safari-dark mb-2">{{ item.title }}</h3>
               <p class="text-gray-600 text-sm">{{ item.description }}</p>
             </div>
           </div>
@@ -151,10 +151,10 @@
     </section>
 
     <!-- Best Time & Pricing -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-14">
-          <div class="inline-block bg-safari-orange/20 text-safari-orange px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Planning Your Visit</div>
+          <div class="inline-block bg-safari-green/20 text-safari-green px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Planning Your Visit</div>
           <h2 class="text-4xl md:text-5xl font-heading font-bold text-white">Best Time & Pricing</h2>
         </div>
 
@@ -166,13 +166,13 @@
             </p>
             <ul class="space-y-3">
               <li class="flex items-center gap-3 text-white">
-                <svg class="w-5 h-5 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 June to October
               </li>
               <li class="flex items-center gap-3 text-white">
-                <svg class="w-5 h-5 text-safari-orange" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 December to early May
@@ -188,15 +188,15 @@
             <div class="space-y-4">
               <div class="flex justify-between items-center border-b border-white/20 pb-3">
                 <span class="text-white">Park entrance fee</span>
-                <span class="text-safari-orange font-bold">$59 per adult</span>
+                <span class="text-safari-green font-bold">$59 per adult</span>
               </div>
               <div class="flex justify-between items-center border-b border-white/20 pb-3">
                 <span class="text-white">Car & guide</span>
-                <span class="text-safari-orange font-bold">$250-300 per vehicle</span>
+                <span class="text-safari-green font-bold">$250-300 per vehicle</span>
               </div>
               <div class="flex justify-between items-center border-b border-white/20 pb-3">
                 <span class="text-white">Walking safari (optional)</span>
-                <span class="text-safari-orange font-bold">$30 adult + $30 ranger</span>
+                <span class="text-safari-green font-bold">$30 adult + $30 ranger</span>
               </div>
               <p class="text-white/70 text-sm mt-4">
                 <strong>The good news is</strong> that children pay much less (about half the price) and if they are under 5 years old they have free access.
@@ -208,18 +208,18 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-orange to-safari-orange/80">
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-br from-safari-green to-safari-green/80">
       <div class="container mx-auto max-w-4xl">
         <div class="bg-white rounded-3xl shadow-2xl p-10 md:p-14 text-center">
-          <h2 class="text-3xl md:text-4xl font-heading font-bold text-safari-brown mb-4">Plan Your Arusha National Park Safari</h2>
+          <h2 class="text-3xl md:text-4xl font-heading font-bold text-safari-dark mb-4">Plan Your Arusha National Park Safari</h2>
           <p class="text-gray-600 text-lg mb-8 max-w-xl mx-auto">Perfect for families, walking safaris, and adding an extra day to your Tanzania adventure</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a :href="$basePath + '/contact'"
-               class="bg-safari-orange text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-safari-orange/90 transition transform hover:scale-105 shadow-lg">
+               class="bg-safari-green text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-safari-green/90 transition transform hover:scale-105 shadow-lg">
               Get Your Free Quote
             </a>
             <a href="https://wa.me/255686526171" target="_blank"
-               class="border-2 border-safari-brown text-safari-brown px-10 py-4 rounded-xl font-semibold text-lg hover:bg-safari-brown hover:text-white transition flex items-center justify-center gap-2">
+               class="border-2 border-safari-dark text-safari-dark px-10 py-4 rounded-xl font-semibold text-lg hover:bg-safari-dark hover:text-white transition flex items-center justify-center gap-2">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
               </svg>

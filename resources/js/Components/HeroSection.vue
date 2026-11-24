@@ -7,7 +7,7 @@
         <img :src="image" :alt="`Safari ${index + 1}`" 
              class="w-full h-full object-cover ken-burns" />
       </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/70 via-safari-brown/50 to-safari-brown/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/70 via-safari-dark/50 to-safari-dark/70"></div>
     </div>
     
     <!-- Floating Testimonials Background -->
@@ -42,14 +42,17 @@
         <p class="text-xl md:text-2xl text-white/90 mb-8">
           Luxury Safaris Crafted for You
         </p>
+        <div class="max-w-2xl mx-auto mb-6 relative z-20">
+          <SiteSearch variant="hero" />
+        </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
-          <a :href="$basePath + '/itineraries'" class="w-full sm:w-auto h-14 bg-safari-orange text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-orange/90 transition transform hover:scale-105 flex items-center justify-center">
+          <a :href="$basePath + '/itineraries'" class="w-full sm:w-auto h-14 bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105 flex items-center justify-center">
             Explore Safaris
           </a>
           <BookingForm
             package-name="Custom Safari Trip"
             button-text="Plan Custom Trip"
-            button-class="w-full sm:w-auto h-14 bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-brown transition flex items-center justify-center"
+            button-class="w-full sm:w-auto h-14 bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-dark transition flex items-center justify-center"
           />
         </div>
       </div>
@@ -66,6 +69,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 import BookingForm from './BookingForm.vue';
+import SiteSearch from './SiteSearch.vue';
 
 const imageNames = [
   'walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg',

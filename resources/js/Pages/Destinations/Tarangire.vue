@@ -7,7 +7,7 @@
       <img :src="getImageUrl('images/tarangire/pexels-dirk-pothen-2149332904-30629351.jpg')" 
            alt="Tarangire National Park" 
            class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/70 via-safari-brown/50 to-safari-brown/90"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/70 via-safari-dark/50 to-safari-dark/90"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div class="max-w-4xl">
           <h1 class="text-5xl md:text-6xl font-heading font-bold text-white mb-4">Tarangire National Park</h1>
@@ -17,11 +17,11 @@
     </section>
     
     <!-- Overview Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">Elephant Capital of Tanzania</h2>
+            <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">Elephant Capital of Tanzania</h2>
             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
               Tarangire National Park is renowned for its massive elephant herds and iconic baobab trees. 
               During the dry season (June-October), the park hosts one of the highest concentrations of 
@@ -34,20 +34,20 @@
             </p>
             
             <div class="grid grid-cols-2 gap-4">
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">2,850 km�</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">2,850 km�</div>
                 <div class="text-sm text-gray-600">Park Size</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">3,000+</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">3,000+</div>
                 <div class="text-sm text-gray-600">Elephants</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">550+</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">550+</div>
                 <div class="text-sm text-gray-600">Bird Species</div>
               </div>
-              <div class="bg-safari-orange/10 p-4 rounded-lg">
-                <div class="text-3xl font-bold text-safari-orange mb-1">118 km</div>
+              <div class="bg-safari-green/10 p-4 rounded-lg">
+                <div class="text-3xl font-bold text-safari-green mb-1">118 km</div>
                 <div class="text-sm text-gray-600">From Arusha</div>
               </div>
             </div>
@@ -65,16 +65,16 @@
     <!-- Wildlife Section -->
     <section class="py-16 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Incredible Wildlife</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Incredible Wildlife</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div v-for="animal in wildlife" :key="animal.name" class="bg-safari-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <div v-for="animal in wildlife" :key="animal.name" class="bg-safari-light rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
             <div class="relative h-48 overflow-hidden group">
               <img :src="getImageUrl(animal.image)" :alt="animal.name" 
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             </div>
             <div class="p-6">
-              <h3 class="text-2xl font-heading font-bold text-safari-brown mb-2">{{ animal.name }}</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark mb-2">{{ animal.name }}</h3>
               <p class="text-gray-600">{{ animal.description }}</p>
             </div>
           </div>
@@ -83,13 +83,13 @@
     </section>
     
     <!-- Key Features -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-center mb-12">Why Visit Tarangire</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="feature in features" :key="feature.title" class="text-center">
-            <div class="w-16 h-16 bg-safari-orange rounded-full flex items-center justify-center mx-auto mb-4">
+            <div class="w-16 h-16 bg-safari-green rounded-full flex items-center justify-center mx-auto mb-4">
               <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
@@ -102,19 +102,19 @@
     </section>
     
     <!-- Best Time to Visit -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">Best Time to Visit</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">Best Time to Visit</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white rounded-2xl p-8 shadow-lg">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-safari-orange rounded-full flex items-center justify-center">
+              <div class="w-12 h-12 bg-safari-green rounded-full flex items-center justify-center">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
                 </svg>
               </div>
-              <h3 class="text-2xl font-heading font-bold text-safari-brown">Dry Season (June-October)</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark">Dry Season (June-October)</h3>
             </div>
             <p class="text-gray-700 mb-4">
               The best time to visit Tarangire. Wildlife concentrates around the Tarangire River, making 
@@ -123,19 +123,19 @@
             </p>
             <ul class="space-y-2 text-gray-600">
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Peak elephant viewing</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Excellent predator sightings</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Clear skies for photography</span>
@@ -145,12 +145,12 @@
           
           <div class="bg-white rounded-2xl p-8 shadow-lg">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-safari-orange/70 rounded-full flex items-center justify-center">
+              <div class="w-12 h-12 bg-safari-green/70 rounded-full flex items-center justify-center">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"/>
                 </svg>
               </div>
-              <h3 class="text-2xl font-heading font-bold text-safari-brown">Wet Season (November-May)</h3>
+              <h3 class="text-2xl font-heading font-bold text-safari-dark">Wet Season (November-May)</h3>
             </div>
             <p class="text-gray-700 mb-4">
               The green season brings lush landscapes and excellent bird watching. Wildlife disperses across 
@@ -159,19 +159,19 @@
             </p>
             <ul class="space-y-2 text-gray-600">
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Spectacular bird watching</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Lush green landscapes</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-safari-orange mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-5 h-5 text-safari-green mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                 </svg>
                 <span>Lower rates and fewer tourists</span>
@@ -183,7 +183,7 @@
     </section>
     
     <!-- Photo Gallery -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-white text-center mb-4">Tarangire in Pictures</h2>
         <p class="text-white/70 text-center mb-12 max-w-2xl mx-auto">Elephant paradise, ancient baobabs and remarkable wildlife � captured in the wild</p>
@@ -230,17 +230,17 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-4xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">Ready to Explore Tarangire?</h2>
         <p class="text-xl text-white/90 mb-8">
           Join us for an unforgettable safari experience in the land of giants
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a :href="$basePath + '/itineraries'" class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105">
+          <a :href="$basePath + '/itineraries'" class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105">
             View Safari Packages
           </a>
-          <a :href="$basePath + '/contact'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/contact'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             Contact Us
           </a>
         </div>

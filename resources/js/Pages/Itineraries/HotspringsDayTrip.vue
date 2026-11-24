@@ -7,10 +7,10 @@
       <img :src="getImageUrl('images/hotprings/Rundugai_Hotsprings_Kilimanjaro.jpg')"
            alt="Chemka Kikuletwa Hot Springs Day Trip"
            class="w-full h-full object-cover ken-burns" />
-      <div class="absolute inset-0 bg-gradient-to-b from-safari-brown/70 via-safari-brown/50 to-safari-brown/90"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-safari-dark/70 via-safari-dark/50 to-safari-dark/90"></div>
       <div class="absolute inset-0 flex items-center justify-center text-center px-4">
         <div class="max-w-4xl">
-          <div class="inline-flex items-center gap-2 bg-safari-orange text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div class="inline-flex items-center gap-2 bg-safari-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/>
             </svg>
@@ -23,41 +23,41 @@
     </section>
 
     <!-- Overview -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-light">
       <div class="container mx-auto max-w-7xl">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">1.5 hrs from Arusha</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">1.5 hrs from Arusha</h3>
             <p class="text-gray-600">Also accessible from Moshi</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">All-Day Relaxation</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">All-Day Relaxation</h3>
             <p class="text-gray-600">Swim, swing, tube & jump</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-lg text-center">
-            <div class="w-16 h-16 bg-safari-orange/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-orange">
+            <div class="w-16 h-16 bg-safari-green/10 rounded-full flex items-center justify-center mx-auto mb-4 text-safari-green">
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-safari-brown mb-2">Crystal Clear Water</h3>
+            <h3 class="text-2xl font-bold text-safari-dark mb-2">Crystal Clear Water</h3>
             <p class="text-gray-600">Natural spring-fed tropical pool</p>
           </div>
         </div>
 
         <div>
-          <h2 class="text-4xl font-heading font-bold text-safari-brown mb-6">A Hidden Gem of Tanzania</h2>
+          <h2 class="text-4xl font-heading font-bold text-safari-dark mb-6">A Hidden Gem of Tanzania</h2>
           <p class="text-lg text-gray-700 leading-relaxed mb-4">
             Travelers who base in Arusha or Moshi in between safaris and hiking trips know there is no better way to recover than a day trip to the Chemka Hot Springs � also known as the Kikuletwa Hot Springs. A true jungle oasis with crystal-clear water fed by natural underground springs.
           </p>
@@ -71,16 +71,16 @@
     <!-- Activities -->
     <section class="py-16 px-4 md:px-8 lg:px-12 bg-white">
       <div class="container mx-auto max-w-7xl">
-        <h2 class="text-4xl font-heading font-bold text-safari-brown text-center mb-12">What to Expect</h2>
+        <h2 class="text-4xl font-heading font-bold text-safari-dark text-center mb-12">What to Expect</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div v-for="act in activities" :key="act.title" class="bg-safari-white rounded-2xl p-6 shadow flex items-start gap-5">
-            <div class="w-12 h-12 bg-safari-orange/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-orange">
+          <div v-for="act in activities" :key="act.title" class="bg-safari-light rounded-2xl p-6 shadow flex items-start gap-5">
+            <div class="w-12 h-12 bg-safari-green/10 rounded-xl flex items-center justify-center flex-shrink-0 text-safari-green">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="act.icon"/>
               </svg>
             </div>
             <div>
-              <h3 class="text-lg font-bold text-safari-brown mb-1">{{ act.title }}</h3>
+              <h3 class="text-lg font-bold text-safari-dark mb-1">{{ act.title }}</h3>
               <p class="text-gray-600 text-sm">{{ act.description }}</p>
             </div>
           </div>
@@ -89,13 +89,13 @@
     </section>
 
     <!-- Included -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-brown text-white">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-dark text-white">
       <div class="container mx-auto max-w-7xl">
         <h2 class="text-4xl font-heading font-bold text-center mb-12">What's Covered</h2>
         <div class="max-w-2xl mx-auto bg-white/10 rounded-2xl p-8">
           <ul class="space-y-3">
             <li v-for="item in included" :key="item" class="flex items-start gap-3">
-              <svg class="w-5 h-5 text-safari-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-5 h-5 text-safari-green mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
               <span>{{ item }}</span>
@@ -103,7 +103,7 @@
           </ul>
           <div class="mt-6 p-4 bg-white/5 rounded-xl border border-white/20">
             <p class="text-sm text-white/70 italic">
-              <svg class="w-4 h-4 inline mr-1 text-safari-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 inline mr-1 text-safari-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
               Cash payment accepted on the morning of the trip after pick-up.
@@ -114,7 +114,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-orange">
+    <section class="py-16 px-4 md:px-8 lg:px-12 bg-safari-green">
       <div class="container mx-auto max-w-4xl text-center">
         <h2 class="text-4xl font-heading font-bold text-white mb-6">Escape to the Jungle Oasis</h2>
         <p class="text-xl text-white/90 mb-8">The perfect day off between your safari and mountain adventures</p>
@@ -123,9 +123,9 @@
             package-slug="hotsprings-day-trip"
             package-name="Chemka Hot Springs Day Trip"
             button-text="Enquire Now"
-            button-class="bg-white text-safari-orange px-8 py-4 rounded-lg font-semibold hover:bg-safari-white transition transform hover:scale-105"
+            button-class="bg-white text-safari-green px-8 py-4 rounded-lg font-semibold hover:bg-safari-light transition transform hover:scale-105"
           />
-          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-orange transition">
+          <a :href="$basePath + '/itineraries'" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-safari-green transition">
             View Other Routes
           </a>
         </div>

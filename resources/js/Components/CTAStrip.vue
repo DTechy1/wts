@@ -2,7 +2,7 @@
   <section class="relative py-20 md:py-24 overflow-hidden">
     <div class="absolute inset-0">
       <img :src="getImageUrl('images/gallery/2026-01-24.webp')" alt="Safari" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-safari-orange/90"></div>
+      <div class="absolute inset-0 bg-safari-green/90"></div>
     </div>
     <div class="container mx-auto max-w-7xl relative z-10 px-4 md:px-8 lg:px-12">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -23,7 +23,7 @@
         <div>
           <BookingForm 
             button-text="Order Now"
-            button-class="group bg-white text-safari-orange px-12 py-5 rounded-xl text-xl font-bold hover:bg-gray-100 transition transform hover:scale-105 shadow-xl flex items-center justify-center gap-3 w-full"
+            button-class="group bg-white text-safari-green px-12 py-5 rounded-xl text-xl font-bold hover:bg-gray-100 transition transform hover:scale-105 shadow-xl flex items-center justify-center gap-3 w-full"
           />
         </div>
       </div>

@@ -9,10 +9,10 @@
              class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
           <div class="relative overflow-hidden h-64 group">
             <img :src="pkg.image" :alt="pkg.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div class="absolute top-4 right-4 bg-safari-orange text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <div class="absolute top-4 right-4 bg-safari-green text-white px-3 py-1 rounded-full text-sm font-semibold">
               {{ pkg.duration }}
             </div>
-            <button class="absolute top-4 left-4 text-white hover:text-safari-orange transition">
+            <button class="absolute top-4 left-4 text-white hover:text-safari-green transition">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
               </svg>
