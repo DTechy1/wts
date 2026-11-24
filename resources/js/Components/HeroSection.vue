@@ -1,6 +1,6 @@
 ﻿<template>
-  <section class="relative h-screen overflow-hidden">
-    <div class="absolute inset-0">
+  <section class="relative h-screen">
+    <div class="absolute inset-0 overflow-hidden">
       <div v-for="(image, index) in heroImages" :key="index"
            :class="['absolute inset-0 transition-all duration-[2000ms] ease-in-out', 
                     currentSlide === index ? 'opacity-100 scale-100' : 'opacity-0 scale-110']">
@@ -35,15 +35,15 @@
     </div>
     
     <div class="relative h-full flex items-center justify-center text-center px-4">
-      <div class="max-w-4xl">
+      <div class="max-w-4xl w-full min-w-0">
         <h1 class="text-5xl md:text-7xl font-heading font-bold text-white mb-6 animate-fade-in">
           Experience the Wild Heart of Tanzania
         </h1>
         <p class="text-xl md:text-2xl text-white/90 mb-8">
           Luxury Safaris Crafted for You
         </p>
-        <div class="max-w-2xl mx-auto mb-6 relative z-20">
-          <SiteSearch variant="hero" />
+        <div class="max-w-3xl mx-auto mb-6 relative z-20">
+          <HeroSearch />
         </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
           <a :href="$basePath + '/itineraries'" class="w-full sm:w-auto h-14 bg-safari-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-safari-green/90 transition transform hover:scale-105 flex items-center justify-center">
@@ -69,7 +69,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 import BookingForm from './BookingForm.vue';
-import SiteSearch from './SiteSearch.vue';
+import HeroSearch from './HeroSearch.vue';
 
 const imageNames = [
   'walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg',

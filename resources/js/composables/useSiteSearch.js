@@ -69,6 +69,48 @@ const KEYWORDS = {
   'cultural-hadza': 'hadzabe lake eyasi hunter gatherers datoga culture',
 };
 
+// Thumbnail per result: first rule whose pattern matches the title or URL wins.
+const IMAGE_RULES = [
+  [/balloon/, 'images/balloon safari/hu-chen-4YUH5FbpN-Y-unsplash.jpg'],
+  [/kenya/, 'images/walters-tours-safaris-kenya-tanzania-safari.png'],
+  [/dubai/, 'images/walters-tours-safaris-dubai-desert-safari.png'],
+  [/hot ?springs|chemka/, 'images/walters-tours-safaris-chemka-hotsprings.png'],
+  [/materuni|waterfall/, 'images/walters-tours-safaris-materuni-waterfall.png'],
+  [/maasai/, 'images/walters-tours-safaris-maasai-village-cultural.png'],
+  [/hadza/, 'images/walters-tours-safaris-hadza-tribe-cultural.png'],
+  [/meru/, 'images/walters-tours-safaris-meru-trekking.png'],
+  [/mikumi/, 'images/walters-tours-safaris-mikumi-safari.png'],
+  [/serval/, 'images/walters-tours-safaris-serval-wildlife.png'],
+  [/nyerere|selous/, 'images/walters-tours-safaris-sammy-wong-wzeGc7Uqopc-unsplash.jpg'],
+  [/camping/, 'images/walters-tours-safaris-camping-tents.png'],
+  [/couple|honeymoon/, 'images/couple safari/lidia-stawinska-Oc4u_mYkimk-unsplash.jpg'],
+  [/duluti/, 'images/lake-duluti/Lake-Duluti-1-scaled.jpg'],
+  [/kilimanjaro/, 'images/Kilimanjaro/pexels-wladimir-kuhne-670646709-19171293.jpg'],
+  [/serengeti|ndutu/, 'images/serengeti/pexels-bgbennett-20095156.jpg'],
+  [/ngorongoro/, 'images/ngorongoro/pexels-alexandra-karnasopoulos-1962842-7205279.jpg'],
+  [/tarangire/, 'images/tarangire/pexels-dirk-pothen-2149332904-32509132.jpg'],
+  [/manyara/, 'images/walters-tours-safaris-lake-manyara-flamingos.png'],
+  [/zanzibar|beach/, 'images/zanzibar/pexels-saila-holidays-zanzibar-1351717875-25706804.jpg'],
+];
+const DEFAULT_IMAGE = 'images/walters-tours-safaris-magdalena-kula-manchee-nVUZO1gc_-o-unsplash.jpg';
+
+// Filters offered as tabs on the banner search.
+export const SEARCH_FILTERS = [
+  { key: 'all', label: 'All', test: () => true },
+  {
+    key: 'safaris',
+    label: 'Safaris',
+    // Multi-day wildlife trips: excludes treks, Dubai and beach-only Zanzibar holidays.
+    test: (i) => i.category === 'Itinerary' && i.days > 1
+      && !/dubai|kilimanjaro|meru/.test(i.titleText)
+      && (/safari/.test(i.titleText) || !/zanzibar/.test(i.titleText)),
+  },
+  { key: 'destinations', label: 'Destinations', test: (i) => i.category === 'Destination' },
+  { key: 'day-trips', label: 'Day Trips', test: (i) => i.duration === 'Day Trip' },
+  { key: 'zanzibar', label: 'Zanzibar & Beach', test: (i) => /zanzibar|beach/.test(i.haystack) && i.category !== 'Guide' },
+  { key: 'budget', label: 'Budget', test: (i) => /budget|camping|cheap/.test(i.haystack) },
+];
+
 const TITLE_SUFFIX = / - Walters Tours & Safaris$/;
 
 const normalize = (text) =>
@@ -82,7 +124,8 @@ const categoryFor = (name) => {
 
 const durationFor = (title, category) => {
   if (category !== 'Itinerary') return '';
-  if (/day trip|day hike|day excursion|1 day/i.test(title)) return 'Day Trip';
+  // "1 Day" must not match inside "11 Days".
+  if (/day trip|day hike|day excursion|(^|\D)1\s*-?\s*day\b/i.test(title)) return 'Day Trip';
   const m = title.match(/(\d+)\s*-?\s*(days?|nights?)/i);
   return m ? `${m[1]} ${/night/i.test(m[2]) ? 'Nights' : 'Days'}` : '';
 };
@@ -96,23 +139,40 @@ export function useSiteSearch() {
     .map((r) => {
       const title = r.meta.title.replace(TITLE_SUFFIX, '');
       const category = categoryFor(r.name);
+      const duration = durationFor(title, category);
+      const titleText = normalize(title);
+      const imageKey = `${titleText} ${r.path}`;
+      const image = (IMAGE_RULES.find(([re]) => re.test(imageKey)) || [null, DEFAULT_IMAGE])[1];
       return {
         path: r.path,
         title,
         category,
-        duration: durationFor(title, category),
-        titleText: normalize(title),
+        duration,
+        days: duration === 'Day Trip' ? 1 : parseInt(duration, 10) || 0,
+        image,
+        titleText,
         haystack: normalize(`${title} ${r.path.replace(/[/-]/g, ' ')} ${KEYWORDS[r.name] || ''} ${category}`),
       };
     });
 
-  const search = (query, limit = 8) => {
+  const filterFn = (key) => (SEARCH_FILTERS.find((f) => f.key === key) || SEARCH_FILTERS[0]).test;
+
+  // All entries for a filter, used when the box is empty but a tab is chosen.
+  const browse = (filterKey = 'all') =>
+    index
+      .filter(filterFn(filterKey))
+      .sort((a, b) => a.days - b.days || a.title.localeCompare(b.title));
+
+  const count = (filterKey) => index.filter(filterFn(filterKey)).length;
+
+  const search = (query, limit = 8, filterKey = 'all') => {
     const q = normalize(query || '');
     if (!q) return [];
     const tokens = q.split(' ');
+    const inFilter = filterFn(filterKey);
 
     return index
-      .filter((item) => tokens.every((t) => item.haystack.includes(t)))
+      .filter((item) => inFilter(item) && tokens.every((t) => item.haystack.includes(t)))
       .map((item) => {
         let score = 0;
         if (item.titleText.startsWith(q)) score += 50;
@@ -131,5 +191,5 @@ export function useSiteSearch() {
     router.push(item.path).catch(() => {});
   };
 
-  return { search, go };
+  return { search, browse, count, go };
 }
